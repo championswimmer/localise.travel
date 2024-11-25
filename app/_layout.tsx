@@ -6,9 +6,8 @@ import {DarkTheme, DefaultTheme, ThemeProvider,} from "@react-navigation/native"
 import {useFonts} from "expo-font";
 import {SplashScreen, Stack} from "expo-router";
 import {Provider} from "./Provider";
-import {Text, useTheme, XStack} from "tamagui";
-import {Globe2} from "@tamagui/lucide-icons";
-import {SafeAreaView} from "react-native-safe-area-context";
+import {useTheme} from "tamagui";
+import {AppHeader} from "./components/AppHeader";
 
 export {
     // Catch any errors thrown by the Layout component.
@@ -25,6 +24,8 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
     const [fontLoaded, fontError] = useFonts({
+        Inter: require("@tamagui/font-inter/otf/Inter-Regular.otf"),
+        InterBold: require("@tamagui/font-inter/otf/Inter-Bold.otf"),
         DMSans: require("@tamagui/font-dm-sans/fonts/static/DMSans-Regular.ttf"),
         DMSansBold: require("@tamagui/font-dm-sans/fonts/static/DMSans-Bold.ttf"),
 
@@ -64,15 +65,7 @@ function RootLayoutNav() {
                 <Stack.Screen
                     name="index"
                     options={{
-                        header: () => (
-                            <SafeAreaView>
-                                <XStack>
-                                    <Globe2 marginHorizontal={12} color="$blue9"></Globe2>
-                                    <Text fontFamily="$heading" fontSize={20}>localise.travel</Text>
-                                </XStack>
-                            </SafeAreaView>
-
-                        )
+                        header: () => (<AppHeader/>)
                     }}
                 />
             </Stack>

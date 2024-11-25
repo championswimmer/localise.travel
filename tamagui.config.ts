@@ -1,6 +1,7 @@
 import {config as configBase} from '@tamagui/config/v3'
 import {createTamagui} from 'tamagui'
 import {createDmSansFont} from "@tamagui/font-dm-sans";
+import {createInterFont} from "@tamagui/font-inter";
 
 export const config = createTamagui({
     ...configBase,
