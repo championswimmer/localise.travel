@@ -1,5 +1,15 @@
-import { Text } from "tamagui";
+import {Button, SelectIcon, Text, View, XStack, YStack} from "tamagui";
+import {Globe} from "@tamagui/lucide-icons";
+import LocaliseLogo from "../components/LocaliseLogo";
+import LanguageSelector from "../components/LanguageSelector";
 
 export default function LocaliseTravel() {
-  return <Text>localise.travel</Text>;
+    return (
+        <YStack>
+            <XStack>
+                <LocaliseLogo/>
+                <LanguageSelector id="lang-select-1"/>
+            </XStack>
+        </YStack>
+    );
 }
