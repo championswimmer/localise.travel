@@ -1,13 +1,12 @@
-import {Button, Text, XStack} from "tamagui";
-import {Globe} from "@tamagui/lucide-icons";
+import {Globe2} from "@tamagui/lucide-icons";
+import {Button, Text, View, XStack} from "tamagui";
+import {LanguageSelector} from "./LanguageSelector";
 
-export default function LocaliseLogo() {
-    return (<Button
-        size="$6"
-        icon={<Globe color="$blue10"/>}
-        disabled={true}
-        chromeless
-    >
-        localise.travel
-    </Button>)
+export function LocaliseLogo() {
+    return (
+        <XStack alignItems={"center"}>
+            <Globe2 marginHorizontal={12} size={20} color="$blue9"></Globe2>
+            <Text fontFamily="$heading" fontSize={20}>localise.travel</Text>
+        </XStack>
+    )
 }
