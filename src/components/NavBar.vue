@@ -1,14 +1,23 @@
 <script setup lang="ts">
 import { AppLanguages } from '@/data/languages'
 import { useLangStore } from '@/stores/lang'
+import { useThemeStore } from '@/stores/theme'
 import { BNavbar, BNavbarBrand, BNavbarNav, BNavForm, BNavItem } from 'bootstrap-vue-next'
-import { Globe, Languages, Footprints, SlidersHorizontal, ChevronDown } from 'lucide-vue-next'
-import { computed } from 'vue'
+import { Globe, Languages, Footprints, SlidersHorizontal, ChevronDown, Sun, Moon, Monitor } from 'lucide-vue-next'
+import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const langStore = useLangStore()
+const themeStore = useThemeStore()
 const currentLang = computed(() => AppLanguages[langStore.lang!!])
+
+const themeModes = ['light', 'dark', 'system']
+const currentTheme = computed(() => themeStore.theme)
+
+const toggleTheme = () => {
+  themeStore.toggleTheme()
+}
 </script>
 
 <template>
@@ -28,6 +37,12 @@ const currentLang = computed(() => AppLanguages[langStore.lang!!])
         <span class="fw-medium ms-2 d-none d-sm-inline">{{ currentLang.name }}</span>
         <span class="fw-light ms-1 d-none d-sm-inline">({{ currentLang.name_en }})</span>
         <ChevronDown class="ms-1 d-inline d-sm-none" :size="16" />
+      </button>
+      <button
+        class="btn btn-outline-secondary border-0 d-flex align-items-center ms-2"
+        @click="toggleTheme"
+      >
+        <component :is="currentTheme.value === 'light' ? Sun : currentTheme.value === 'dark' ? Moon : Monitor" :size="24" />
       </button>
     </BNavForm>
   </BNavbar>

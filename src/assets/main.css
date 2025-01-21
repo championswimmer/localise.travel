@@ -63,3 +63,21 @@
   font-style: normal;
   font-variation-settings: 'wdth' 70;
 }
+
+/* Light mode */
+body[data-theme='light'] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #000000;
+}
+
+/* Dark mode */
+body[data-theme='dark'] {
+  --bs-body-bg: #000000;
+  --bs-body-color: #ffffff;
+}
+
+/* System mode */
+body[data-theme='system'] {
+  --bs-body-bg: var(--system-body-bg);
+  --bs-body-color: var(--system-body-color);
+}
