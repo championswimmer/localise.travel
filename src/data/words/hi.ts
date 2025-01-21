@@ -124,7 +124,7 @@ export const wordList: TranslatedWords = {
     phonetic: 'kha-o',
   },
   drink: {
-    translation: 'पीओ',
+    translation: 'पियो',
     phonetic: 'pee-o',
   },
 
