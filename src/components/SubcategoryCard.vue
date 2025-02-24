@@ -14,7 +14,7 @@ const props = defineProps<{
 
 <template>
   <BCard
-    class="border-2"
+    class="border-2 pointer"
     @mouseover="hover = true"
     @mouseleave="hover = press = false"
     @mousedown="press = true"
