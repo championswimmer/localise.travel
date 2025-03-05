@@ -10,7 +10,7 @@ import { useLangStore } from '@/stores/lang'
 
 const langStore = useLangStore()
 const searchQuery = ref('')
-const searchResults = ref([])
+const searchResults = ref<string[]>([])
 
 const handleSearch = (query: string) => {
   searchQuery.value = query
