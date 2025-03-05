@@ -56,3 +56,8 @@ export const getWordListForLang = (lang: LangCode): TranslatedWords => {
       return frenchWordList
   }
 }
+
+export const searchWordsInLang = (lang: LangCode, query: string): string[] => {
+  const wordList = getWordListForLang(lang)
+  return Object.keys(wordList).filter((word) => word.includes(query.toLowerCase()))
+}
