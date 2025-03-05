@@ -6,6 +6,7 @@ import { Volume2, AudioLines } from 'lucide-vue-next'
 const props = defineProps<{
   word: string
   translation: Translation
+  searchInput: string
 }>()
 
 const langStore = useLangStore()
@@ -21,7 +22,7 @@ const pronounce = () => {
 </script>
 
 <template>
-  <BCard class="my-3">
+  <BCard class="my-3" v-if="!searchInput || word.toLowerCase().includes(searchInput.toLowerCase())">
     <BCardBody class="p-2">
       <div class="row align-items-center">
         <div class="col me-auto">

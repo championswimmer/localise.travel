@@ -6,6 +6,7 @@ import { ref } from 'vue'
 
 const props = defineProps<{
   category: Category
+  searchInput: string
 }>()
 
 const hover = ref(false)
@@ -26,6 +27,7 @@ const press = ref(false)
         'border-primary': press,
         'shadow-sm': press,
       }"
+      v-if="!searchInput || category.name.toLowerCase().includes(searchInput.toLowerCase())"
     >
       <LucideIcon
         :name="category.icon"
