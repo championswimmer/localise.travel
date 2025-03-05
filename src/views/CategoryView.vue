@@ -68,6 +68,7 @@ wordlist.value = getWordListForLang(langStore.lang)
         :word="word"
         :translation="wordlist!![word]"
         :key="word"
+        :searchInput="searchInput"
       />
     </section>
   </div>
