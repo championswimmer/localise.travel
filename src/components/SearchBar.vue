@@ -12,7 +12,7 @@ const handleInput = (event: Event) => {
 </script>
 
 <template>
-  <div>
+  <div class="search-bar-container">
     <input
       type="text"
       v-model="searchInput"

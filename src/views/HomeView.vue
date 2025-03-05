@@ -40,7 +40,7 @@ const filteredCategories = computed(() => {
       <div class="text-center">select the language of the destination you are travelling to</div>
       <div class="text-center">then pick a category to discover essential words and phrases</div>
     </header>
-    <SearchBar v-model="searchInput" />
+    <SearchBar v-model="searchInput" class="search-bar-container" />
     <section class="container mt-4">
       <div class="row row-cols-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5 g-4">
         <CategoryCard
@@ -60,3 +60,10 @@ const filteredCategories = computed(() => {
     </section>
   </main>
 </template>
+
+<style scoped>
+.search-bar-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+</style>
