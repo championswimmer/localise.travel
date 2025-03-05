@@ -20,6 +20,7 @@ declare module 'vue' {
     ReloadPrompt: typeof import('./src/components/ReloadPrompt.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SearchBar: typeof import('./src/components/SearchBar.vue')['default']
     SubcategoryCard: typeof import('./src/components/SubcategoryCard.vue')['default']
     WordCard: typeof import('./src/components/WordCard.vue')['default']
   }
