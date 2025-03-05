@@ -21,6 +21,7 @@ const subcategory = computed(() =>
 )
 const langStore = useLangStore()
 const wordlist = ref<TranslatedWords | null>(null)
+const searchInput = ref('')
 
 function selectSubCategory(subcategory: string) {
   selectedSubcategory.value = subcategory
@@ -58,6 +59,7 @@ wordlist.value = getWordListForLang(langStore.lang)
             'border-2': subcat.name === selectedSubcategory,
             shadow: subcat.name !== selectedSubcategory,
           }"
+          :searchInput="searchInput"
         />
       </div>
     </section>
