@@ -20,8 +20,9 @@ declare module 'vue' {
     ReloadPrompt: typeof import('./src/components/ReloadPrompt.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    SubcategoryCard: typeof import('./src/components/SubcategoryCard.vue')['default']
-    WordCard: typeof import('./src/components/WordCard.vue')['default']
     SearchBar: typeof import('./src/components/SearchBar.vue')['default']
+    SubcategoryCard: typeof import('./src/components/SubcategoryCard.vue')['default']
+    ToastNotification: typeof import('./src/components/ToastNotification.vue')['default']
+    WordCard: typeof import('./src/components/WordCard.vue')['default']
   }
 }
