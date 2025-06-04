@@ -17,9 +17,7 @@ export const useLangStore = defineStore(
     const voiceSelector = ref<boolean>(false)
     const toggleVoiceSelector = () => {
       voiceSelector.value = !voiceSelector.value
-      Promise.resolve().then(() => {
-        posthog.capture('toggle_voice_selector', { open: voiceSelector.value })
-      })
+      getPostHog()?.capture('toggle_voice_selector', { open: voiceSelector.value })
     }
 
     const lang = ref<LangCode>('fr')
