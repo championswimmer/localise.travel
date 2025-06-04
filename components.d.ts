@@ -23,6 +23,7 @@ declare module 'vue' {
     SearchBar: typeof import('./src/components/SearchBar.vue')['default']
     SubcategoryCard: typeof import('./src/components/SubcategoryCard.vue')['default']
     ToastNotification: typeof import('./src/components/ToastNotification.vue')['default']
+    VoiceSelectorModal: typeof import('./src/components/VoiceSelectorModal.vue')['default']
     WordCard: typeof import('./src/components/WordCard.vue')['default']
   }
 }

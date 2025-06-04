@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { AppLanguages, type LangCode } from '@/data/languages'
 import { useLangStore } from '@/stores/lang'
 import { BListGroup, BModal, BFormSelect } from 'bootstrap-vue-next'
@@ -13,9 +14,11 @@ const selectLanguage = (lang: LangCode) => {
   // langStore.selector = false
 }
 
-const selectVoice = (lang: LangCode, voice: SpeechSynthesisVoice) => {
-  selectedVoices.value[lang] = voice
-  langStore.setVoice(lang, voice)
+const selectVoice = (lang: LangCode, voice: SpeechSynthesisVoice | null) => {
+  if (voice) {
+    selectedVoices.value[lang] = voice
+    langStore.setVoice(lang, voice)
+  }
 }
 
 const getVoicesForLang = (lang: LangCode) => {

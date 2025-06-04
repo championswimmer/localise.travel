@@ -44,4 +44,9 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  server: {
+    host: true,
+    port: 12000,
+    allowedHosts: ['all', 'work-1-ewymjqebufepqzks.prod-runtime.all-hands.dev'],
+  },
 })
