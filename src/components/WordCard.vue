@@ -1,7 +1,10 @@
 <script setup lang="ts">
-import type { TranslatedWords, Translation } from '@/data/words'
+import type { Translation } from '@/data/words'
 import { useLangStore } from '@/stores/lang'
 import { Volume2, AudioLines } from 'lucide-vue-next'
+import { inject } from 'vue'
+import { AppLanguages } from '@/data/languages'
+import type { ToastMethods } from '@/components/ToastNotification.vue'
 
 const props = defineProps<{
   word: string
@@ -9,11 +12,25 @@ const props = defineProps<{
 }>()
 
 const langStore = useLangStore()
+const toast = inject<ToastMethods>('toast')
 
 const pronounce = () => {
   setTimeout(() => {
     const utterance = new SpeechSynthesisUtterance(props.translation.translation)
     utterance.lang = langStore.lang
+
+    const voices = window.speechSynthesis.getVoices()
+    const languageSupported = voices.some((voice) => voice.lang.startsWith(langStore.lang))
+
+    if (!languageSupported && toast) {
+      const languageName = AppLanguages[langStore.lang]?.name_en || langStore.lang
+      toast.warning(
+        `Text-to-speech is not available for ${languageName}. Please install appropriate language pack in your system settings.`,
+        'Language Pack Required',
+      )
+      return
+    }
+
     utterance.rate = 0.7
     const selectedVoice = langStore.selectedVoices[langStore.lang]
     if (selectedVoice) {
@@ -37,7 +54,7 @@ const pronounce = () => {
             <AudioLines :size="18" :stroke-width="1" /> {{ props.translation.phonetic }}
           </p>
         </div>
-        <div class="col-auto text-end" @click="pronounce()">
+        <div class="col-auto text-end pointer" @click="pronounce()">
           <Volume2 class="mt-2 d-block mx-auto" :size="32" />
         </div>
       </div>

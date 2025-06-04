@@ -15,6 +15,50 @@ export interface Subcategory {
 
 export const WordCategories: Category[] = [
   {
+    name: 'Basics',
+    path: 'basics',
+    icon: 'book',
+    subcategories: [
+      {
+        name: 'Greetings',
+        icon: 'handshake',
+        words: [
+          'hello',
+          'hi',
+          'good morning',
+          'good afternoon',
+          'good evening',
+          'good night',
+          'goodbye',
+          'see you later',
+          'take care',
+          'have a nice day',
+        ],
+      },
+      {
+        name: 'Numbers',
+        icon: 'binary',
+        words: [
+          'zero',
+          'one',
+          'two',
+          'three',
+          'five',
+          'ten',
+          'twenty',
+          'fifty',
+          'hundred',
+          'thousand',
+        ],
+      },
+      {
+        name: 'Actions',
+        icon: 'person-standing',
+        words: ['go', 'stop', 'sit', 'stand', 'walk', 'run', 'jump', 'sleep', 'eat', 'drink'],
+      },
+    ],
+  },
+  {
     name: 'Travel',
     path: 'travel',
     icon: 'tickets-plane',

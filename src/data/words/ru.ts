@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'здравствуйте',
+    phonetic: 'zdrav-stvuy-te',
+  },
+  hi: {
+    translation: 'привет',
+    phonetic: 'pri-vet',
+  },
+  'good morning': {
+    translation: 'доброе утро',
+    phonetic: 'dob-ro-ye ut-ro',
+  },
+  'good afternoon': {
+    translation: 'добрый день',
+    phonetic: 'dob-ry den',
+  },
+  'good evening': {
+    translation: 'добрый вечер',
+    phonetic: 'dob-ry ve-cher',
+  },
+  'good night': {
+    translation: 'спокойной ночи',
+    phonetic: 'spo-koy-noy no-chi',
+  },
+  goodbye: {
+    translation: 'до свидания',
+    phonetic: 'do svi-da-ni-ya',
+  },
+  'see you later': {
+    translation: 'до встречи',
+    phonetic: 'do vstre-chi',
+  },
+  'take care': {
+    translation: 'берегите себя',
+    phonetic: 'be-re-gi-te se-bya',
+  },
+  'have a nice day': {
+    translation: 'хорошего дня',
+    phonetic: 'ho-ro-she-go dnya',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'ноль',
+    phonetic: 'nol',
+  },
+  one: {
+    translation: 'один',
+    phonetic: 'a-din',
+  },
+  two: {
+    translation: 'два',
+    phonetic: 'dva',
+  },
+  three: {
+    translation: 'три',
+    phonetic: 'tri',
+  },
+  five: {
+    translation: 'пять',
+    phonetic: 'pyat',
+  },
+  ten: {
+    translation: 'десять',
+    phonetic: 'de-syat',
+  },
+  twenty: {
+    translation: 'двадцать',
+    phonetic: 'dvad-tsat',
+  },
+  fifty: {
+    translation: 'пятьдесят',
+    phonetic: 'pyat-de-syat',
+  },
+  hundred: {
+    translation: 'сто',
+    phonetic: 'sto',
+  },
+  thousand: {
+    translation: 'тысяча',
+    phonetic: 'ty-sya-cha',
+  },
+
+  // Actions
+  go: {
+    translation: 'идти',
+    phonetic: 'id-ti',
+  },
+  stop: {
+    translation: 'стоп',
+    phonetic: 'stop',
+  },
+  sit: {
+    translation: 'сидеть',
+    phonetic: 'si-det',
+  },
+  stand: {
+    translation: 'стоять',
+    phonetic: 'sto-yat',
+  },
+  walk: {
+    translation: 'гулять',
+    phonetic: 'gu-lyat',
+  },
+  run: {
+    translation: 'бежать',
+    phonetic: 'be-zhat',
+  },
+  jump: {
+    translation: 'прыгать',
+    phonetic: 'pry-gat',
+  },
+  sleep: {
+    translation: 'спать',
+    phonetic: 'spat',
+  },
+  eat: {
+    translation: 'есть',
+    phonetic: 'yest',
+  },
+  drink: {
+    translation: 'пить',
+    phonetic: 'pit',
+  },
+
   // Travel
   // Air Travel
   departure: {

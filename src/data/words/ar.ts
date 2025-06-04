@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'مرحبا',
+    phonetic: 'marhaba',
+  },
+  hi: {
+    translation: 'أهلا',
+    phonetic: 'ahlan',
+  },
+  'good morning': {
+    translation: 'صباح الخير',
+    phonetic: 'sabah al-khair',
+  },
+  'good afternoon': {
+    translation: 'مساء الخير',
+    phonetic: 'masa al-khair',
+  },
+  'good evening': {
+    translation: 'مساء الخير',
+    phonetic: 'masa al-khair',
+  },
+  'good night': {
+    translation: 'تصبح على خير',
+    phonetic: 'tusbih ala khair',
+  },
+  goodbye: {
+    translation: 'مع السلامة',
+    phonetic: 'ma al-salama',
+  },
+  'see you later': {
+    translation: 'أراك لاحقا',
+    phonetic: 'arak lahiqan',
+  },
+  'take care': {
+    translation: 'مع السلامة',
+    phonetic: 'ma al-salama',
+  },
+  'have a nice day': {
+    translation: 'يوم سعيد',
+    phonetic: 'yawm saeed',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'صفر',
+    phonetic: 'sifr',
+  },
+  one: {
+    translation: 'واحد',
+    phonetic: 'wahid',
+  },
+  two: {
+    translation: 'اثنان',
+    phonetic: 'ithnan',
+  },
+  three: {
+    translation: 'ثلاثة',
+    phonetic: 'thalatha',
+  },
+  five: {
+    translation: 'خمسة',
+    phonetic: 'khamsa',
+  },
+  ten: {
+    translation: 'عشرة',
+    phonetic: 'ashara',
+  },
+  twenty: {
+    translation: 'عشرون',
+    phonetic: 'ishrun',
+  },
+  fifty: {
+    translation: 'خمسون',
+    phonetic: 'khamsun',
+  },
+  hundred: {
+    translation: 'مائة',
+    phonetic: "mi'a",
+  },
+  thousand: {
+    translation: 'ألف',
+    phonetic: 'alf',
+  },
+
+  // Actions
+  go: {
+    translation: 'اذهب',
+    phonetic: 'idhab',
+  },
+  stop: {
+    translation: 'توقف',
+    phonetic: 'tawaqaf',
+  },
+  sit: {
+    translation: 'اجلس',
+    phonetic: 'ijlis',
+  },
+  stand: {
+    translation: 'قف',
+    phonetic: 'qif',
+  },
+  walk: {
+    translation: 'امشي',
+    phonetic: 'imshi',
+  },
+  run: {
+    translation: 'اركض',
+    phonetic: 'urkud',
+  },
+  jump: {
+    translation: 'اقفز',
+    phonetic: 'iqfiz',
+  },
+  sleep: {
+    translation: 'نم',
+    phonetic: 'nam',
+  },
+  eat: {
+    translation: 'كل',
+    phonetic: 'kul',
+  },
+  drink: {
+    translation: 'اشرب',
+    phonetic: 'ishrab',
+  },
+
   // Travel
   // Air Travel
   departure: {

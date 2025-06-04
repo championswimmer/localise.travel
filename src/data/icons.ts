@@ -1,4 +1,9 @@
 export type Icon =
+  // category: Basics; subcategory: Greetings
+  | 'book-type'
+  | 'handshake'
+  | 'binary'
+  | 'person-standing'
   // category: Travel; subcategory: Air, Road, Rail
   | 'tickets-plane'
   | 'plane'

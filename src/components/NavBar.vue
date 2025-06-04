@@ -8,7 +8,6 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const langStore = useLangStore()
-
 const currentLang = computed(() => AppLanguages[langStore.lang!!])
 </script>
 

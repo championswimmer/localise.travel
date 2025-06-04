@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: '你好',
+    phonetic: 'nǐ hǎo',
+  },
+  hi: {
+    translation: '嗨',
+    phonetic: 'hāi',
+  },
+  'good morning': {
+    translation: '早上好',
+    phonetic: 'zǎo shang hǎo',
+  },
+  'good afternoon': {
+    translation: '下午好',
+    phonetic: 'xià wǔ hǎo',
+  },
+  'good evening': {
+    translation: '晚上好',
+    phonetic: 'wǎn shang hǎo',
+  },
+  'good night': {
+    translation: '晚安',
+    phonetic: 'wǎn ān',
+  },
+  goodbye: {
+    translation: '再见',
+    phonetic: 'zài jiàn',
+  },
+  'see you later': {
+    translation: '回头见',
+    phonetic: 'huí tóu jiàn',
+  },
+  'take care': {
+    translation: '保重',
+    phonetic: 'bǎo zhòng',
+  },
+  'have a nice day': {
+    translation: '祝你今天愉快',
+    phonetic: 'zhù nǐ jīn tiān yú kuài',
+  },
+
+  // Numbers
+  zero: {
+    translation: '零',
+    phonetic: 'líng',
+  },
+  one: {
+    translation: '一',
+    phonetic: 'yī',
+  },
+  two: {
+    translation: '二',
+    phonetic: 'èr',
+  },
+  three: {
+    translation: '三',
+    phonetic: 'sān',
+  },
+  five: {
+    translation: '五',
+    phonetic: 'wǔ',
+  },
+  ten: {
+    translation: '十',
+    phonetic: 'shí',
+  },
+  twenty: {
+    translation: '二十',
+    phonetic: 'èr shí',
+  },
+  fifty: {
+    translation: '五十',
+    phonetic: 'wǔ shí',
+  },
+  hundred: {
+    translation: '百',
+    phonetic: 'bǎi',
+  },
+  thousand: {
+    translation: '千',
+    phonetic: 'qiān',
+  },
+
+  // Actions
+  go: {
+    translation: '去',
+    phonetic: 'qù',
+  },
+  stop: {
+    translation: '停',
+    phonetic: 'tíng',
+  },
+  sit: {
+    translation: '坐',
+    phonetic: 'zuò',
+  },
+  stand: {
+    translation: '站',
+    phonetic: 'zhàn',
+  },
+  walk: {
+    translation: '走',
+    phonetic: 'zǒu',
+  },
+  run: {
+    translation: '跑',
+    phonetic: 'pǎo',
+  },
+  jump: {
+    translation: '跳',
+    phonetic: 'tiào',
+  },
+  sleep: {
+    translation: '睡觉',
+    phonetic: 'shuì jiào',
+  },
+  eat: {
+    translation: '吃',
+    phonetic: 'chī',
+  },
+  drink: {
+    translation: '喝',
+    phonetic: 'hē',
+  },
+
   // Travel
   // Air Travel
   departure: {
@@ -621,7 +748,7 @@ export const wordList: TranslatedWords = {
   },
   'security code': {
     translation: '安全码',
-    phonetic: 'ān quán mǎ',
+    phonetic: 'ān qu��n mǎ',
   },
   'card limit': {
     translation: '卡限额',

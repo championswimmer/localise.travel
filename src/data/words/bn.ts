@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'হ্যালো',
+    phonetic: 'hello',
+  },
+  hi: {
+    translation: 'হাই',
+    phonetic: 'hi',
+  },
+  'good morning': {
+    translation: 'সুপ্রভাত',
+    phonetic: 'shu-pro-bhaat',
+  },
+  'good afternoon': {
+    translation: 'শুভ বিকেল',
+    phonetic: 'shu-bho bi-kel',
+  },
+  'good evening': {
+    translation: 'শুভ সন্ধ্যা',
+    phonetic: 'shu-bho shon-dha',
+  },
+  'good night': {
+    translation: 'শুভ রাত্রি',
+    phonetic: 'shu-bho ra-tri',
+  },
+  goodbye: {
+    translation: 'বিদায়',
+    phonetic: 'bi-day',
+  },
+  'see you later': {
+    translation: 'আবার দেখা হবে',
+    phonetic: 'aa-bar de-kha ho-be',
+  },
+  'take care': {
+    translation: 'নিজের যত্ন নিও',
+    phonetic: 'ni-jer jot-no nio',
+  },
+  'have a nice day': {
+    translation: 'ভালো দিন কাটুক',
+    phonetic: 'bha-lo din ka-tuk',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'শূন্য',
+    phonetic: 'shun-no',
+  },
+  one: {
+    translation: 'এক',
+    phonetic: 'ek',
+  },
+  two: {
+    translation: 'দুই',
+    phonetic: 'dui',
+  },
+  three: {
+    translation: 'তিন',
+    phonetic: 'tin',
+  },
+  five: {
+    translation: 'পাঁচ',
+    phonetic: 'pach',
+  },
+  ten: {
+    translation: 'দশ',
+    phonetic: 'dosh',
+  },
+  twenty: {
+    translation: 'বিশ',
+    phonetic: 'bish',
+  },
+  fifty: {
+    translation: 'পঞ্চাশ',
+    phonetic: 'pon-chash',
+  },
+  hundred: {
+    translation: 'একশো',
+    phonetic: 'ek-sho',
+  },
+  thousand: {
+    translation: 'হাজার',
+    phonetic: 'ha-jar',
+  },
+
+  // Actions
+  go: {
+    translation: 'যাও',
+    phonetic: 'jao',
+  },
+  stop: {
+    translation: 'থামো',
+    phonetic: 'tha-mo',
+  },
+  sit: {
+    translation: 'বসো',
+    phonetic: 'bo-sho',
+  },
+  stand: {
+    translation: 'দাঁড়াও',
+    phonetic: 'da-rao',
+  },
+  walk: {
+    translation: 'হাঁটো',
+    phonetic: 'ha-to',
+  },
+  run: {
+    translation: 'দৌড়াও',
+    phonetic: 'dou-rao',
+  },
+  jump: {
+    translation: 'লাফাও',
+    phonetic: 'la-fao',
+  },
+  sleep: {
+    translation: 'ঘুমাও',
+    phonetic: 'ghu-mao',
+  },
+  eat: {
+    translation: 'খাও',
+    phonetic: 'khao',
+  },
+  drink: {
+    translation: 'পান করো',
+    phonetic: 'pan ko-ro',
+  },
+
   // Travel
   // Air Travel
   departure: {

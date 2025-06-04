@@ -1,601 +1,728 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'hallo',
+    phonetic: 'ha-lo',
+  },
+  hi: {
+    translation: 'hi',
+    phonetic: 'hi',
+  },
+  'good morning': {
+    translation: 'guten morgen',
+    phonetic: 'goo-ten mor-gen',
+  },
+  'good afternoon': {
+    translation: 'guten tag',
+    phonetic: 'goo-ten tak',
+  },
+  'good evening': {
+    translation: 'guten abend',
+    phonetic: 'goo-ten ah-bent',
+  },
+  'good night': {
+    translation: 'gute nacht',
+    phonetic: 'goo-te nacht',
+  },
+  goodbye: {
+    translation: 'auf wiedersehen',
+    phonetic: 'auf vee-der-zen',
+  },
+  'see you later': {
+    translation: 'bis später',
+    phonetic: 'bis shpay-ter',
+  },
+  'take care': {
+    translation: 'pass auf dich auf',
+    phonetic: 'pas auf dich auf',
+  },
+  'have a nice day': {
+    translation: 'schönen tag',
+    phonetic: 'shö-nen tak',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'null',
+    phonetic: 'nool',
+  },
+  one: {
+    translation: 'eins',
+    phonetic: 'ayns',
+  },
+  two: {
+    translation: 'zwei',
+    phonetic: 'tsvay',
+  },
+  three: {
+    translation: 'drei',
+    phonetic: 'dray',
+  },
+  five: {
+    translation: 'fünf',
+    phonetic: 'fünf',
+  },
+  ten: {
+    translation: 'zehn',
+    phonetic: 'tsayn',
+  },
+  twenty: {
+    translation: 'zwanzig',
+    phonetic: 'tsvan-tsich',
+  },
+  fifty: {
+    translation: 'fünfzig',
+    phonetic: 'fünf-tsich',
+  },
+  hundred: {
+    translation: 'hundert',
+    phonetic: 'hun-dert',
+  },
+  thousand: {
+    translation: 'tausend',
+    phonetic: 'tau-zent',
+  },
+
+  // Actions
+  go: {
+    translation: 'gehen',
+    phonetic: 'gey-en',
+  },
+  stop: {
+    translation: 'stoppen',
+    phonetic: 'shtop-pen',
+  },
+  sit: {
+    translation: 'sitzen',
+    phonetic: 'zi-tsen',
+  },
+  stand: {
+    translation: 'stehen',
+    phonetic: 'shtey-en',
+  },
+  walk: {
+    translation: 'laufen',
+    phonetic: 'lau-fen',
+  },
+  run: {
+    translation: 'rennen',
+    phonetic: 'ren-nen',
+  },
+  jump: {
+    translation: 'springen',
+    phonetic: 'shpring-en',
+  },
+  sleep: {
+    translation: 'schlafen',
+    phonetic: 'shla-fen',
+  },
+  eat: {
+    translation: 'essen',
+    phonetic: 'es-sen',
+  },
+  drink: {
+    translation: 'trinken',
+    phonetic: 'trin-ken',
+  },
+
   // Travel
   // Air Travel
   departure: {
-    translation: 'Abflug',
+    translation: 'abflug',
     phonetic: 'ap-flook',
   },
   arrival: {
-    translation: 'Ankunft',
+    translation: 'ankunft',
     phonetic: 'an-koonft',
   },
   'boarding pass': {
-    translation: 'Boardingpass',
+    translation: 'boardingpass',
     phonetic: 'bor-ding-pas',
   },
   'passport control': {
-    translation: 'Passkontrolle',
+    translation: 'passkontrolle',
     phonetic: 'pas-kon-trol-uh',
   },
   'baggage claim': {
-    translation: 'Gepäckausgabe',
+    translation: 'gepäckausgabe',
     phonetic: 'ge-pek-aus-ga-be',
   },
   terminal: {
-    translation: 'Terminal',
+    translation: 'terminal',
     phonetic: 'ter-mi-nal',
   },
   gate: {
-    translation: 'Gate',
+    translation: 'gate',
     phonetic: 'geyt',
   },
   'check-in': {
-    translation: 'Check-in',
+    translation: 'check-in',
     phonetic: 'chek-in',
   },
   'security check': {
-    translation: 'Sicherheitskontrolle',
+    translation: 'sicherheitskontrolle',
     phonetic: 'zi-cher-hyts-kon-trol-uh',
   },
   customs: {
-    translation: 'Zoll',
+    translation: 'zoll',
     phonetic: 'tsol',
   },
 
   // Road Travel
   'gas station': {
-    translation: 'Tankstelle',
+    translation: 'tankstelle',
     phonetic: 'tank-shtel-uh',
   },
   'parking lot': {
-    translation: 'Parkplatz',
+    translation: 'parkplatz',
     phonetic: 'park-plats',
   },
   highway: {
-    translation: 'Autobahn',
+    translation: 'autobahn',
     phonetic: 'au-to-ban',
   },
   'toll road': {
-    translation: 'Mautstraße',
+    translation: 'mautstraße',
     phonetic: 'maut-shtra-se',
   },
   'car rental': {
-    translation: 'Autovermietung',
+    translation: 'autovermietung',
     phonetic: 'au-to-fer-mee-tung',
   },
   'traffic light': {
-    translation: 'Ampel',
+    translation: 'ampel',
     phonetic: 'am-pel',
   },
   directions: {
-    translation: 'Wegbeschreibung',
+    translation: 'wegbeschreibung',
     phonetic: 'veg-be-shry-bung',
   },
   'rest area': {
-    translation: 'Rastplatz',
+    translation: 'rastplatz',
     phonetic: 'rast-plats',
   },
   exit: {
-    translation: 'Ausfahrt',
+    translation: 'ausfahrt',
     phonetic: 'aus-fart',
   },
   roundabout: {
-    translation: 'Kreisverkehr',
+    translation: 'kreisverkehr',
     phonetic: 'krys-fer-ker',
   },
 
   // Rail Travel
   platform: {
-    translation: 'Bahnsteig',
+    translation: 'bahnsteig',
     phonetic: 'ban-shtyg',
   },
   'ticket office': {
-    translation: 'Fahrkartenschalter',
+    translation: 'fahrkartenschalter',
     phonetic: 'far-kar-ten-shal-ter',
   },
   'train station': {
-    translation: 'Bahnhof',
+    translation: 'bahnhof',
     phonetic: 'ban-hof',
   },
   timetable: {
-    translation: 'Fahrplan',
+    translation: 'fahrplan',
     phonetic: 'far-plan',
   },
   'track number': {
-    translation: 'Gleisnummer',
+    translation: 'gleisnummer',
     phonetic: 'glys-num-er',
   },
   'railway car': {
-    translation: 'Waggon',
+    translation: 'waggon',
     phonetic: 'va-gon',
   },
   connection: {
-    translation: 'Verbindung',
+    translation: 'verbindung',
     phonetic: 'fer-bin-dung',
   },
   'seat reservation': {
-    translation: 'Sitzplatzreservierung',
+    translation: 'sitzplatzreservierung',
     phonetic: 'zits-plats-re-zer-vee-rung',
   },
   conductor: {
-    translation: 'Schaffner',
+    translation: 'schaffner',
     phonetic: 'shaf-ner',
   },
   delay: {
-    translation: 'Verspätung',
+    translation: 'verspätung',
     phonetic: 'fer-shpe-tung',
   },
 
   // Places
   // Hotels
   reception: {
-    translation: 'Rezeption',
+    translation: 'rezeption',
     phonetic: 're-tsep-tsyon',
   },
   checkout: {
-    translation: 'Auschecken',
+    translation: 'auschecken',
     phonetic: 'aus-che-ken',
   },
   'room service': {
-    translation: 'Zimmerservice',
+    translation: 'zimmerservice',
     phonetic: 'tsim-er-ser-vis',
   },
   housekeeping: {
-    translation: 'Zimmerreinigung',
+    translation: 'zimmerreinigung',
     phonetic: 'tsim-er-ry-ni-gung',
   },
   'wake-up call': {
-    translation: 'Weckruf',
+    translation: 'weckruf',
     phonetic: 'vek-roof',
   },
   minibar: {
-    translation: 'Minibar',
+    translation: 'minibar',
     phonetic: 'mi-ni-bar',
   },
   'luggage storage': {
-    translation: 'Gepäckaufbewahrung',
+    translation: 'gepäckaufbewahrung',
     phonetic: 'ge-pek-auf-be-va-rung',
   },
   'complimentary breakfast': {
-    translation: 'kostenloses Frühstück',
+    translation: 'kostenloses frühstück',
     phonetic: 'kos-ten-lo-zes frü-shtük',
   },
   reservation: {
-    translation: 'Reservierung',
+    translation: 'reservierung',
     phonetic: 're-zer-vee-rung',
   },
 
   // Work
   'meeting room': {
-    translation: 'Besprechungsraum',
+    translation: 'besprechungsraum',
     phonetic: 'be-shpre-chungs-raum',
   },
   office: {
-    translation: 'Büro',
+    translation: 'büro',
     phonetic: 'bü-ro',
   },
   'conference call': {
-    translation: 'Telefonkonferenz',
+    translation: 'telefonkonferenz',
     phonetic: 'te-le-fon-kon-fe-rents',
   },
   presentation: {
-    translation: 'Präsentation',
+    translation: 'präsentation',
     phonetic: 'pre-zen-ta-tsyon',
   },
   printer: {
-    translation: 'Drucker',
+    translation: 'drucker',
     phonetic: 'dru-ker',
   },
   colleague: {
-    translation: 'Kollege',
+    translation: 'kollege',
     phonetic: 'ko-le-ge',
   },
   deadline: {
-    translation: 'Abgabetermin',
+    translation: 'abgabetermin',
     phonetic: 'ap-ga-be-ter-min',
   },
   schedule: {
-    translation: 'Zeitplan',
+    translation: 'zeitplan',
     phonetic: 'tsyt-plan',
   },
   'business card': {
-    translation: 'Visitenkarte',
+    translation: 'visitenkarte',
     phonetic: 'vi-zi-ten-kar-te',
   },
   appointment: {
-    translation: 'Termin',
+    translation: 'termin',
     phonetic: 'ter-min',
   },
   // Outdoors
   'hiking trail': {
-    translation: 'Wanderweg',
+    translation: 'wanderweg',
     phonetic: 'van-der-veg',
   },
   campsite: {
-    translation: 'Campingplatz',
+    translation: 'campingplatz',
     phonetic: 'kam-ping-plats',
   },
   'picnic area': {
-    translation: 'Picknickplatz',
+    translation: 'picknickplatz',
     phonetic: 'pik-nik-plats',
   },
   'scenic view': {
-    translation: 'Aussichtspunkt',
+    translation: 'aussichtspunkt',
     phonetic: 'aus-zichts-punkt',
   },
   'national park': {
-    translation: 'Nationalpark',
+    translation: 'nationalpark',
     phonetic: 'na-tsyo-nal-park',
   },
   beach: {
-    translation: 'Strand',
+    translation: 'strand',
     phonetic: 'shtrand',
   },
   mountain: {
-    translation: 'Berg',
+    translation: 'berg',
     phonetic: 'berg',
   },
   lake: {
-    translation: 'See',
+    translation: 'see',
     phonetic: 'ze',
   },
   forest: {
-    translation: 'Wald',
+    translation: 'wald',
     phonetic: 'valt',
   },
   garden: {
-    translation: 'Garten',
+    translation: 'garten',
     phonetic: 'gar-ten',
   },
 
   // Food and Drink
   // Restaurants
   menu: {
-    translation: 'Speisekarte',
+    translation: 'speisekarte',
     phonetic: 'shpy-ze-kar-te',
   },
   waiter: {
-    translation: 'Kellner',
+    translation: 'kellner',
     phonetic: 'kel-ner',
   },
   bill: {
-    translation: 'Rechnung',
+    translation: 'rechnung',
     phonetic: 'rech-nung',
   },
   tip: {
-    translation: 'Trinkgeld',
+    translation: 'trinkgeld',
     phonetic: 'trink-gelt',
   },
   'table for two': {
-    translation: 'Tisch für zwei',
+    translation: 'tisch für zwei',
     phonetic: 'tish für tsvay',
   },
   appetizer: {
-    translation: 'Vorspeise',
+    translation: 'vorspeise',
     phonetic: 'for-shpy-ze',
   },
   'main course': {
-    translation: 'Hauptgericht',
+    translation: 'hauptgericht',
     phonetic: 'haupt-ge-richt',
   },
   dessert: {
-    translation: 'Nachspeise',
+    translation: 'nachspeise',
     phonetic: 'nach-shpy-ze',
   },
   drinks: {
-    translation: 'Getränke',
+    translation: 'getränke',
     phonetic: 'ge-tren-ke',
   },
 
   // Pubs and Bars
   'draft beer': {
-    translation: 'Bier vom Fass',
+    translation: 'bier vom fass',
     phonetic: 'beer fom fas',
   },
   'wine list': {
-    translation: 'Weinkarte',
+    translation: 'weinkarte',
     phonetic: 'vyn-kar-te',
   },
   cocktail: {
-    translation: 'Cocktail',
+    translation: 'cocktail',
     phonetic: 'kok-teyl',
   },
   'happy hour': {
-    translation: 'Happy Hour',
+    translation: 'happy hour',
     phonetic: 'he-pi-auer',
   },
   'bar stool': {
-    translation: 'Barhocker',
+    translation: 'barhocker',
     phonetic: 'bar-ho-ker',
   },
   snacks: {
-    translation: 'Snacks',
+    translation: 'snacks',
     phonetic: 'sneks',
   },
   'last call': {
-    translation: 'letzte Runde',
+    translation: 'letzte runde',
     phonetic: 'lets-te run-de',
   },
   spirits: {
-    translation: 'Spirituosen',
+    translation: 'spirituosen',
     phonetic: 'shpi-ri-tu-o-zen',
   },
   bartender: {
-    translation: 'Barkeeper',
+    translation: 'barkeeper',
     phonetic: 'bar-ki-per',
   },
   tab: {
-    translation: 'Zeche',
+    translation: 'zeche',
     phonetic: 'tse-che',
   },
 
   // Cafes
   espresso: {
-    translation: 'Espresso',
+    translation: 'espresso',
     phonetic: 'es-pre-so',
   },
   latte: {
-    translation: 'Milchkaffee',
+    translation: 'milchkaffee',
     phonetic: 'milch-ka-fe',
   },
   pastry: {
-    translation: 'Gebäck',
+    translation: 'gebäck',
     phonetic: 'ge-bek',
   },
   'wifi password': {
-    translation: 'WLAN-Passwort',
+    translation: 'wlan-passwort',
     phonetic: 've-lan-pas-vort',
   },
   takeaway: {
-    translation: 'zum Mitnehmen',
+    translation: 'zum mitnehmen',
     phonetic: 'tsum mit-ne-men',
   },
   'coffee to go': {
-    translation: 'Kaffee zum Mitnehmen',
+    translation: 'kaffee zum mitnehmen',
     phonetic: 'ka-fe tsum mit-ne-men',
   },
   'breakfast menu': {
-    translation: 'Frühstückskarte',
+    translation: 'frühstückskarte',
     phonetic: 'frü-shtüks-kar-te',
   },
   barista: {
-    translation: 'Barista',
+    translation: 'barista',
     phonetic: 'ba-ris-ta',
   },
   'milk alternatives': {
-    translation: 'Milchalternativen',
+    translation: 'milchalternativen',
     phonetic: 'milch-al-ter-na-ti-ven',
   },
   'opening hours': {
-    translation: 'Öffnungszeiten',
+    translation: 'öffnungszeiten',
     phonetic: 'öf-nungs-tsy-ten',
   },
 
   // Shopping
   // Clothes
   'fitting room': {
-    translation: 'Umkleidekabine',
+    translation: 'umkleidekabine',
     phonetic: 'um-kly-de-ka-bi-ne',
   },
   size: {
-    translation: 'Größe',
+    translation: 'größe',
     phonetic: 'grö-se',
   },
   sale: {
-    translation: 'Ausverkauf',
+    translation: 'ausverkauf',
     phonetic: 'aus-fer-kauf',
   },
   discount: {
-    translation: 'Rabatt',
+    translation: 'rabatt',
     phonetic: 'ra-bat',
   },
   receipt: {
-    translation: 'Quittung',
+    translation: 'quittung',
     phonetic: 'kvi-tung',
   },
   'return policy': {
-    translation: 'Rückgaberecht',
+    translation: 'rückgaberecht',
     phonetic: 'rük-ga-be-recht',
   },
   cashier: {
-    translation: 'Kassierer',
+    translation: 'kassierer',
     phonetic: 'ka-see-rer',
   },
   'price tag': {
-    translation: 'Preisschild',
+    translation: 'preisschild',
     phonetic: 'prys-shilt',
   },
   collection: {
-    translation: 'Kollektion',
+    translation: 'kollektion',
     phonetic: 'ko-lek-tsyon',
   },
   payment: {
-    translation: 'Zahlung',
+    translation: 'zahlung',
     phonetic: 'tsa-lung',
   },
 
   // Electronics
   charger: {
-    translation: 'Ladegerät',
+    translation: 'ladegerät',
     phonetic: 'la-de-ge-ret',
   },
   adapter: {
-    translation: 'Adapter',
+    translation: 'adapter',
     phonetic: 'a-dap-ter',
   },
   warranty: {
-    translation: 'Garantie',
+    translation: 'garantie',
     phonetic: 'ga-ran-tee',
   },
   'technical support': {
-    translation: 'technischer Support',
+    translation: 'technischer support',
     phonetic: 'tech-ni-sher su-port',
   },
   'battery life': {
-    translation: 'Akkulaufzeit',
+    translation: 'akkulaufzeit',
     phonetic: 'a-ku-lauf-tsyt',
   },
   specifications: {
-    translation: 'Spezifikationen',
+    translation: 'spezifikationen',
     phonetic: 'spe-tsi-fi-ka-tsyo-nen',
   },
   memory: {
-    translation: 'Speicher',
+    translation: 'speicher',
     phonetic: 'shpy-cher',
   },
   display: {
-    translation: 'Bildschirm',
+    translation: 'bildschirm',
     phonetic: 'bilt-shirm',
   },
   accessories: {
-    translation: 'Zubehör',
+    translation: 'zubehör',
     phonetic: 'tsu-be-hör',
   },
   repair: {
-    translation: 'Reparatur',
+    translation: 'reparatur',
     phonetic: 're-pa-ra-tur',
   },
 
   // Books
   bestseller: {
-    translation: 'Bestseller',
+    translation: 'bestseller',
     phonetic: 'best-se-ler',
   },
   paperback: {
-    translation: 'Taschenbuch',
+    translation: 'taschenbuch',
     phonetic: 'ta-shen-buch',
   },
   hardcover: {
-    translation: 'gebundenes Buch',
+    translation: 'gebundenes buch',
     phonetic: 'ge-bun-de-nes buch',
   },
   genre: {
-    translation: 'Genre',
+    translation: 'genre',
     phonetic: 'zhon-re',
   },
   author: {
-    translation: 'Autor',
+    translation: 'autor',
     phonetic: 'au-tor',
   },
   bookshelf: {
-    translation: 'Bücherregal',
+    translation: 'bücherregal',
     phonetic: 'bü-cher-re-gal',
   },
   recommendation: {
-    translation: 'Empfehlung',
+    translation: 'empfehlung',
     phonetic: 'emp-fe-lung',
   },
   'new releases': {
-    translation: 'Neuerscheinungen',
+    translation: 'neuerscheinungen',
     phonetic: 'noy-er-shy-nung-en',
   },
   bookstore: {
-    translation: 'Buchhandlung',
+    translation: 'buchhandlung',
     phonetic: 'buch-hand-lung',
   },
   'reading list': {
-    translation: 'Leseliste',
+    translation: 'leseliste',
     phonetic: 'le-ze-lis-te',
   },
 
   // Money
   // Bank
   account: {
-    translation: 'Konto',
+    translation: 'konto',
     phonetic: 'kon-to',
   },
   balance: {
-    translation: 'Kontostand',
+    translation: 'kontostand',
     phonetic: 'kon-to-shtand',
   },
   transfer: {
-    translation: 'Überweisung',
+    translation: 'überweisung',
     phonetic: 'ü-ber-vy-zung',
   },
   withdrawal: {
-    translation: 'Abhebung',
+    translation: 'abhebung',
     phonetic: 'ab-he-bung',
   },
   deposit: {
-    translation: 'Einzahlung',
+    translation: 'einzahlung',
     phonetic: 'yn-tsa-lung',
   },
   statement: {
-    translation: 'Kontoauszug',
+    translation: 'kontoauszug',
     phonetic: 'kon-to-aus-tsug',
   },
   'exchange rate': {
-    translation: 'Wechselkurs',
+    translation: 'wechselkurs',
     phonetic: 'vek-sel-kurs',
   },
   branch: {
-    translation: 'Filiale',
+    translation: 'filiale',
     phonetic: 'fi-li-a-le',
   },
   'online banking': {
-    translation: 'Online-Banking',
+    translation: 'online-banking',
     phonetic: 'on-lyn-ben-king',
   },
   transaction: {
-    translation: 'Transaktion',
+    translation: 'transaktion',
     phonetic: 'trans-ak-tsyon',
   },
 
   // Cash
   change: {
-    translation: 'Kleingeld',
+    translation: 'kleingeld',
     phonetic: 'klyn-gelt',
   },
   bills: {
-    translation: 'Scheine',
+    translation: 'scheine',
     phonetic: 'shy-ne',
   },
   coins: {
-    translation: 'Münzen',
+    translation: 'münzen',
     phonetic: 'mün-tsen',
   },
   currency: {
-    translation: 'Währung',
+    translation: 'währung',
     phonetic: 've-rung',
   },
   ATM: {
-    translation: 'Geldautomat',
+    translation: 'geldautomat',
     phonetic: 'gelt-au-to-mat',
   },
   'cash back': {
-    translation: 'Cashback',
+    translation: 'cashback',
     phonetic: 'kesh-bek',
   },
   'money exchange': {
-    translation: 'Geldwechsel',
+    translation: 'geldwechsel',
     phonetic: 'gelt-vek-sel',
   },
   safe: {
-    translation: 'Tresor',
+    translation: 'tresor',
     phonetic: 'tre-zor',
   },
   wallet: {
-    translation: 'Geldbörse',
+    translation: 'geldbörse',
     phonetic: 'gelt-bör-ze',
   },
   'local currency': {
-    translation: 'Landeswährung',
+    translation: 'landeswährung',
     phonetic: 'lan-des-ve-rung',
   },
 
   // Cards
   'credit card': {
-    translation: 'Kreditkarte',
+    translation: 'kreditkarte',
     phonetic: 'kre-dit-kar-te',
   },
   'debit card': {
-    translation: 'EC-Karte',
+    translation: 'ec-karte',
     phonetic: 'e-tse-kar-te',
   },
   'PIN number': {
-    translation: 'PIN-Nummer',
+    translation: 'pin-nummer',
     phonetic: 'pin-num-er',
   },
   contactless: {
@@ -603,7 +730,7 @@ export const wordList: TranslatedWords = {
     phonetic: 'kon-takt-los',
   },
   chip: {
-    translation: 'Chip',
+    translation: 'chip',
     phonetic: 'chip',
   },
   swipe: {
@@ -611,19 +738,19 @@ export const wordList: TranslatedWords = {
     phonetic: 'durch-tsee-en',
   },
   'card reader': {
-    translation: 'Kartenlesegerät',
+    translation: 'kartenlesegerät',
     phonetic: 'kar-ten-le-ze-ge-ret',
   },
   'expiry date': {
-    translation: 'Ablaufdatum',
+    translation: 'ablaufdatum',
     phonetic: 'ap-lauf-da-tum',
   },
   'security code': {
-    translation: 'Sicherheitscode',
+    translation: 'sicherheitscode',
     phonetic: 'zi-cher-hyts-ko-de',
   },
   'card limit': {
-    translation: 'Kartenlimit',
+    translation: 'kartenlimit',
     phonetic: 'kar-ten-li-mit',
   },
 }

@@ -17,6 +17,7 @@ import { wordList as chineseWordList } from './zh'
 import { wordList as japaneseWordList } from './ja'
 import { wordList as arabicWordList } from './ar'
 import { wordList as italianWordList } from './it'
+import { wordList as indonesianWordList } from './id'
 import type { LangCode } from '../languages'
 
 /*
@@ -49,7 +50,14 @@ export const getWordListForLang = (lang: LangCode): TranslatedWords => {
       return arabicWordList
     case 'it':
       return italianWordList
+    case 'id':
+      return indonesianWordList
     default:
       return frenchWordList
   }
+}
+
+export const searchWordsInLang = (lang: LangCode, query: string): string[] => {
+  const wordList = getWordListForLang(lang)
+  return Object.keys(wordList).filter((word) => word.includes(query.toLowerCase()))
 }

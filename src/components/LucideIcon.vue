@@ -22,6 +22,10 @@ import {
   Landmark,
   Coins,
   CreditCard,
+  BookType,
+  Handshake,
+  PersonStanding,
+  Binary,
 } from 'lucide-vue-next'
 
 const props = defineProps<{
@@ -33,6 +37,14 @@ const props = defineProps<{
 
 const icon = computed(() => {
   switch (props.name) {
+    case 'book-type':
+      return BookType
+    case 'handshake':
+      return Handshake
+    case 'binary':
+      return Binary
+    case 'person-standing':
+      return PersonStanding
     case 'tickets-plane':
       return TicketsPlane
     case 'plane':

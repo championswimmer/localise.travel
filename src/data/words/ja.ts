@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'こんにちは',
+    phonetic: 'konnichiwa',
+  },
+  hi: {
+    translation: 'やあ',
+    phonetic: 'yaa',
+  },
+  'good morning': {
+    translation: 'おはようございます',
+    phonetic: 'ohayou gozaimasu',
+  },
+  'good afternoon': {
+    translation: 'こんにちは',
+    phonetic: 'konnichiwa',
+  },
+  'good evening': {
+    translation: 'こんばんは',
+    phonetic: 'konbanwa',
+  },
+  'good night': {
+    translation: 'おやすみなさい',
+    phonetic: 'oyasuminasai',
+  },
+  goodbye: {
+    translation: 'さようなら',
+    phonetic: 'sayounara',
+  },
+  'see you later': {
+    translation: 'またね',
+    phonetic: 'matane',
+  },
+  'take care': {
+    translation: 'お気をつけて',
+    phonetic: 'oki wo tsukete',
+  },
+  'have a nice day': {
+    translation: '良い一日を',
+    phonetic: 'yoi ichinichi wo',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'ゼロ',
+    phonetic: 'zero',
+  },
+  one: {
+    translation: '一',
+    phonetic: 'ichi',
+  },
+  two: {
+    translation: '二',
+    phonetic: 'ni',
+  },
+  three: {
+    translation: '三',
+    phonetic: 'san',
+  },
+  five: {
+    translation: '五',
+    phonetic: 'go',
+  },
+  ten: {
+    translation: '十',
+    phonetic: 'juu',
+  },
+  twenty: {
+    translation: '二十',
+    phonetic: 'nijuu',
+  },
+  fifty: {
+    translation: '五十',
+    phonetic: 'gojuu',
+  },
+  hundred: {
+    translation: '百',
+    phonetic: 'hyaku',
+  },
+  thousand: {
+    translation: '千',
+    phonetic: 'sen',
+  },
+
+  // Actions
+  go: {
+    translation: '行く',
+    phonetic: 'iku',
+  },
+  stop: {
+    translation: '止まる',
+    phonetic: 'tomaru',
+  },
+  sit: {
+    translation: '座る',
+    phonetic: 'suwaru',
+  },
+  stand: {
+    translation: '立つ',
+    phonetic: 'tatsu',
+  },
+  walk: {
+    translation: '歩く',
+    phonetic: 'aruku',
+  },
+  run: {
+    translation: '走る',
+    phonetic: 'hashiru',
+  },
+  jump: {
+    translation: '跳ぶ',
+    phonetic: 'tobu',
+  },
+  sleep: {
+    translation: '寝る',
+    phonetic: 'neru',
+  },
+  eat: {
+    translation: '食べる',
+    phonetic: 'taberu',
+  },
+  drink: {
+    translation: '飲む',
+    phonetic: 'nomu',
+  },
+
   // Travel
   // Air Travel
   departure: {
@@ -431,7 +558,7 @@ export const wordList: TranslatedWords = {
     phonetic: 'hoshou',
   },
   'technical support': {
-    translation: '技術サポート',
+    translation: '技術サポ���ト',
     phonetic: 'gijutsu sapooto',
   },
   'battery life': {

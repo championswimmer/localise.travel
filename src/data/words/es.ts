@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'hola',
+    phonetic: 'oh-lah',
+  },
+  hi: {
+    translation: 'hola',
+    phonetic: 'oh-lah',
+  },
+  'good morning': {
+    translation: 'buenos días',
+    phonetic: 'bweh-nohs dee-ahs',
+  },
+  'good afternoon': {
+    translation: 'buenas tardes',
+    phonetic: 'bweh-nahs tar-dehs',
+  },
+  'good evening': {
+    translation: 'buenas noches',
+    phonetic: 'bweh-nahs no-chehs',
+  },
+  'good night': {
+    translation: 'buenas noches',
+    phonetic: 'bweh-nahs no-chehs',
+  },
+  goodbye: {
+    translation: 'adiós',
+    phonetic: 'ah-dee-ohs',
+  },
+  'see you later': {
+    translation: 'hasta luego',
+    phonetic: 'ahs-tah lweh-go',
+  },
+  'take care': {
+    translation: 'cuídate',
+    phonetic: 'kwee-dah-teh',
+  },
+  'have a nice day': {
+    translation: 'que tengas un buen día',
+    phonetic: 'keh ten-gahs oon bwen dee-ah',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'cero',
+    phonetic: 'seh-ro',
+  },
+  one: {
+    translation: 'uno',
+    phonetic: 'oo-no',
+  },
+  two: {
+    translation: 'dos',
+    phonetic: 'dohs',
+  },
+  three: {
+    translation: 'tres',
+    phonetic: 'trehs',
+  },
+  five: {
+    translation: 'cinco',
+    phonetic: 'seen-ko',
+  },
+  ten: {
+    translation: 'diez',
+    phonetic: 'dee-ehs',
+  },
+  twenty: {
+    translation: 'veinte',
+    phonetic: 'bay-een-teh',
+  },
+  fifty: {
+    translation: 'cincuenta',
+    phonetic: 'seen-kwen-tah',
+  },
+  hundred: {
+    translation: 'cien',
+    phonetic: 'see-ehn',
+  },
+  thousand: {
+    translation: 'mil',
+    phonetic: 'meel',
+  },
+
+  // Actions
+  go: {
+    translation: 'ir',
+    phonetic: 'eer',
+  },
+  stop: {
+    translation: 'parar',
+    phonetic: 'pah-rahr',
+  },
+  sit: {
+    translation: 'sentarse',
+    phonetic: 'sen-tar-seh',
+  },
+  stand: {
+    translation: 'ponerse de pie',
+    phonetic: 'po-nehr-seh deh pee-eh',
+  },
+  walk: {
+    translation: 'caminar',
+    phonetic: 'kah-mee-nahr',
+  },
+  run: {
+    translation: 'correr',
+    phonetic: 'ko-rehr',
+  },
+  jump: {
+    translation: 'saltar',
+    phonetic: 'sahl-tahr',
+  },
+  sleep: {
+    translation: 'dormir',
+    phonetic: 'dor-meer',
+  },
+  eat: {
+    translation: 'comer',
+    phonetic: 'ko-mehr',
+  },
+  drink: {
+    translation: 'beber',
+    phonetic: 'beh-behr',
+  },
+
   // Travel
   // Air Travel
   departure: {

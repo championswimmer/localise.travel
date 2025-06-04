@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'ciao',
+    phonetic: 'chao',
+  },
+  hi: {
+    translation: 'ciao',
+    phonetic: 'chao',
+  },
+  'good morning': {
+    translation: 'buongiorno',
+    phonetic: 'bwon-jor-no',
+  },
+  'good afternoon': {
+    translation: 'buon pomeriggio',
+    phonetic: 'bwon po-me-ri-jo',
+  },
+  'good evening': {
+    translation: 'buonasera',
+    phonetic: 'bwo-na-se-ra',
+  },
+  'good night': {
+    translation: 'buonanotte',
+    phonetic: 'bwo-na-not-te',
+  },
+  goodbye: {
+    translation: 'arrivederci',
+    phonetic: 'ar-ri-ve-der-chi',
+  },
+  'see you later': {
+    translation: 'a dopo',
+    phonetic: 'a do-po',
+  },
+  'take care': {
+    translation: 'stammi bene',
+    phonetic: 'stam-mi be-ne',
+  },
+  'have a nice day': {
+    translation: 'buona giornata',
+    phonetic: 'bwo-na jor-na-ta',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'zero',
+    phonetic: 'dze-ro',
+  },
+  one: {
+    translation: 'uno',
+    phonetic: 'u-no',
+  },
+  two: {
+    translation: 'due',
+    phonetic: 'du-e',
+  },
+  three: {
+    translation: 'tre',
+    phonetic: 'tre',
+  },
+  five: {
+    translation: 'cinque',
+    phonetic: 'chin-kwe',
+  },
+  ten: {
+    translation: 'dieci',
+    phonetic: 'di-e-chi',
+  },
+  twenty: {
+    translation: 'venti',
+    phonetic: 'ven-ti',
+  },
+  fifty: {
+    translation: 'cinquanta',
+    phonetic: 'chin-kwan-ta',
+  },
+  hundred: {
+    translation: 'cento',
+    phonetic: 'chen-to',
+  },
+  thousand: {
+    translation: 'mille',
+    phonetic: 'mil-le',
+  },
+
+  // Actions
+  go: {
+    translation: 'andare',
+    phonetic: 'an-da-re',
+  },
+  stop: {
+    translation: 'fermarsi',
+    phonetic: 'fer-mar-si',
+  },
+  sit: {
+    translation: 'sedersi',
+    phonetic: 'se-der-si',
+  },
+  stand: {
+    translation: 'stare in piedi',
+    phonetic: 'sta-re in pi-e-di',
+  },
+  walk: {
+    translation: 'camminare',
+    phonetic: 'cam-mi-na-re',
+  },
+  run: {
+    translation: 'correre',
+    phonetic: 'cor-re-re',
+  },
+  jump: {
+    translation: 'saltare',
+    phonetic: 'sal-ta-re',
+  },
+  sleep: {
+    translation: 'dormire',
+    phonetic: 'dor-mi-re',
+  },
+  eat: {
+    translation: 'mangiare',
+    phonetic: 'man-ja-re',
+  },
+  drink: {
+    translation: 'bere',
+    phonetic: 'be-re',
+  },
+
   // Travel
   // Air Travel
   departure: {

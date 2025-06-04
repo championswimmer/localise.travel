@@ -34,7 +34,6 @@ export default defineConfig({
           { src: '/favicon.ico', sizes: '64x64 32x32 24x24 16x16', type: 'image/x-icon' },
         ],
       },
-      mode: 'production', // TODO: use NODE_ENV
       devOptions: {
         enabled: false, // TODO: use NODE_ENV
       },

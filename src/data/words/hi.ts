@@ -1,6 +1,133 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
+  // Basics
+  // Greetings
+  hello: {
+    translation: 'नमस्ते',
+    phonetic: 'na-mas-te',
+  },
+  hi: {
+    translation: 'हाय',
+    phonetic: 'hi',
+  },
+  'good morning': {
+    translation: 'सुप्रभात',
+    phonetic: 'su-pra-bhat',
+  },
+  'good afternoon': {
+    translation: 'शुभ दोपहर',
+    phonetic: 'shubh do-pahar',
+  },
+  'good evening': {
+    translation: 'शुभ संध्या',
+    phonetic: 'shubh san-dhya',
+  },
+  'good night': {
+    translation: 'शुभ रात्रि',
+    phonetic: 'shubh ra-tri',
+  },
+  goodbye: {
+    translation: 'अलविदा',
+    phonetic: 'al-vi-da',
+  },
+  'see you later': {
+    translation: 'फिर मिलेंगे',
+    phonetic: 'phir mi-len-ge',
+  },
+  'take care': {
+    translation: 'अपना ख्याल रखना',
+    phonetic: 'ap-na khy-al rakh-na',
+  },
+  'have a nice day': {
+    translation: 'शुभ दिन',
+    phonetic: 'shubh din',
+  },
+
+  // Numbers
+  zero: {
+    translation: 'शून्य',
+    phonetic: 'shoo-nya',
+  },
+  one: {
+    translation: 'एक',
+    phonetic: 'ek',
+  },
+  two: {
+    translation: 'दो',
+    phonetic: 'do',
+  },
+  three: {
+    translation: 'तीन',
+    phonetic: 'teen',
+  },
+  five: {
+    translation: 'पाँच',
+    phonetic: 'paanch',
+  },
+  ten: {
+    translation: 'दस',
+    phonetic: 'das',
+  },
+  twenty: {
+    translation: 'बीस',
+    phonetic: 'bees',
+  },
+  fifty: {
+    translation: 'पचास',
+    phonetic: 'pa-chas',
+  },
+  hundred: {
+    translation: 'सौ',
+    phonetic: 'sau',
+  },
+  thousand: {
+    translation: 'हज़ार',
+    phonetic: 'ha-zar',
+  },
+
+  // Actions
+  go: {
+    translation: 'जाओ',
+    phonetic: 'ja-o',
+  },
+  stop: {
+    translation: 'रुको',
+    phonetic: 'ru-ko',
+  },
+  sit: {
+    translation: 'बैठो',
+    phonetic: 'bai-tho',
+  },
+  stand: {
+    translation: 'खड़े हो',
+    phonetic: 'kha-de ho',
+  },
+  walk: {
+    translation: 'चलो',
+    phonetic: 'cha-lo',
+  },
+  run: {
+    translation: 'दौड़ो',
+    phonetic: 'dau-do',
+  },
+  jump: {
+    translation: 'कूदो',
+    phonetic: 'koo-do',
+  },
+  sleep: {
+    translation: 'सोओ',
+    phonetic: 'so-o',
+  },
+  eat: {
+    translation: 'खाओ',
+    phonetic: 'kha-o',
+  },
+  drink: {
+    translation: 'पियो',
+    phonetic: 'pee-o',
+  },
+
   // Travel
   // Air Travel
   departure: {

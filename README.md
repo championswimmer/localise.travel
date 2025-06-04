@@ -1,5 +1,9 @@
 # localise.travel
 
+[![Build](https://github.com/championswimmer/localise.travel/actions/workflows/build.yml/badge.svg)](https://github.com/championswimmer/localise.travel/actions/workflows/build.yml)
+[![Unit Tests](https://github.com/championswimmer/localise.travel/actions/workflows/test.yml/badge.svg)](https://github.com/championswimmer/localise.travel/actions/workflows/test.yml)
+[![Netlify Deploy](https://api.netlify.com/api/v1/badges/1f13b1bd-2246-4cb0-be43-8e58c3497789/deploy-status)](https://app.netlify.com/sites/localise-travel/deploys)
+
 ## Development
 
 ## Recommended IDE Setup
