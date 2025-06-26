@@ -1,373 +1,277 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
-  // Basics
-  // Greetings
-  hello: {
-    translation: 'ciao',
-    phonetic: 'chao',
-  },
-  hi: {
-    translation: 'ciao',
-    phonetic: 'chao',
-  },
-  'good morning': {
-    translation: 'buongiorno',
-    phonetic: 'bwon-jor-no',
-  },
-  'good afternoon': {
-    translation: 'buon pomeriggio',
-    phonetic: 'bwon po-me-ri-jo',
-  },
-  'good evening': {
-    translation: 'buonasera',
-    phonetic: 'bwo-na-se-ra',
-  },
-  'good night': {
-    translation: 'buonanotte',
-    phonetic: 'bwo-na-not-te',
-  },
-  goodbye: {
-    translation: 'arrivederci',
-    phonetic: 'ar-ri-ve-der-chi',
-  },
-  'see you later': {
-    translation: 'a dopo',
-    phonetic: 'a do-po',
-  },
-  'take care': {
-    translation: 'stammi bene',
-    phonetic: 'stam-mi be-ne',
-  },
-  'have a nice day': {
-    translation: 'buona giornata',
-    phonetic: 'bwo-na jor-na-ta',
-  },
-
-  // Numbers
-  zero: {
-    translation: 'zero',
-    phonetic: 'dze-ro',
-  },
-  one: {
-    translation: 'uno',
-    phonetic: 'u-no',
-  },
-  two: {
-    translation: 'due',
-    phonetic: 'du-e',
-  },
-  three: {
-    translation: 'tre',
-    phonetic: 'tre',
-  },
-  five: {
-    translation: 'cinque',
-    phonetic: 'chin-kwe',
-  },
-  ten: {
-    translation: 'dieci',
-    phonetic: 'di-e-chi',
-  },
-  twenty: {
-    translation: 'venti',
-    phonetic: 'ven-ti',
-  },
-  fifty: {
-    translation: 'cinquanta',
-    phonetic: 'chin-kwan-ta',
-  },
-  hundred: {
-    translation: 'cento',
-    phonetic: 'chen-to',
-  },
-  thousand: {
-    translation: 'mille',
-    phonetic: 'mil-le',
-  },
-
-  // Actions
-  go: {
-    translation: 'andare',
-    phonetic: 'an-da-re',
-  },
-  stop: {
-    translation: 'fermarsi',
-    phonetic: 'fer-mar-si',
-  },
-  sit: {
-    translation: 'sedersi',
-    phonetic: 'se-der-si',
-  },
-  stand: {
-    translation: 'stare in piedi',
-    phonetic: 'sta-re in pi-e-di',
-  },
-  walk: {
-    translation: 'camminare',
-    phonetic: 'cam-mi-na-re',
-  },
-  run: {
-    translation: 'correre',
-    phonetic: 'cor-re-re',
-  },
-  jump: {
-    translation: 'saltare',
-    phonetic: 'sal-ta-re',
-  },
-  sleep: {
-    translation: 'dormire',
-    phonetic: 'dor-mi-re',
-  },
-  eat: {
-    translation: 'mangiare',
-    phonetic: 'man-ja-re',
-  },
-  drink: {
-    translation: 'bere',
-    phonetic: 'be-re',
-  },
-
-  // Travel
-  // Air Travel
-  departure: {
-    translation: 'partenza',
-    phonetic: 'partenza',
-  },
-  arrival: {
-    translation: 'arrivo',
-    phonetic: 'arrivo',
-  },
-  'boarding pass': {
-    translation: 'carta d’imbarco',
-    phonetic: 'carta dimbarco',
-  },
-  'passport control': {
-    translation: 'controllo passaporti',
-    phonetic: 'controllo passaporti',
-  },
-  'baggage claim': {
-    translation: 'ritiro bagagli',
-    phonetic: 'ritiro bagagli',
-  },
-  terminal: {
-    translation: 'terminal',
-    phonetic: 'terminal',
-  },
-  gate: {
-    translation: 'uscita',
-    phonetic: 'uscita',
-  },
-  'check-in': {
-    translation: 'check-in',
-    phonetic: 'check-in',
-  },
-  'security check': {
-    translation: 'controllo di sicurezza',
-    phonetic: 'controllo di sicurezza',
-  },
-  customs: {
-    translation: 'dogana',
-    phonetic: 'dogana',
-  },
-
-  // Road Travel
-  'gas station': {
-    translation: 'stazione di servizio',
-    phonetic: 'stazione di servizio',
-  },
-  'parking lot': {
-    translation: 'parcheggio',
-    phonetic: 'parcheggio',
-  },
-  highway: {
-    translation: 'autostrada',
-    phonetic: 'autostrada',
-  },
-  'toll road': {
-    translation: 'strada a pedaggio',
-    phonetic: 'strada a pedaggio',
-  },
-  'car rental': {
-    translation: 'noleggio auto',
-    phonetic: 'noleggio auto',
-  },
-  'traffic light': {
-    translation: 'semaforo',
-    phonetic: 'semaforo',
-  },
-  directions: {
-    translation: 'indicazioni',
-    phonetic: 'indicazioni',
-  },
-  'rest area': {
-    translation: 'area di sosta',
-    phonetic: 'area di sosta',
-  },
-  exit: {
-    translation: 'uscita',
-    phonetic: 'uscita',
-  },
-  roundabout: {
-    translation: 'rotatoria',
-    phonetic: 'rotatoria',
-  },
-
-  // Rail Travel
-  platform: {
-    translation: 'banchina',
-    phonetic: 'banchina',
-  },
-  'ticket office': {
-    translation: 'biglietteria',
-    phonetic: 'biglietteria',
-  },
-  'train station': {
-    translation: 'stazione ferroviaria',
-    phonetic: 'stazione ferroviaria',
-  },
-  timetable: {
-    translation: 'orario',
-    phonetic: 'orario',
-  },
-  'track number': {
-    translation: 'numero del binario',
-    phonetic: 'numero del binario',
-  },
-  'railway car': {
-    translation: 'carrozza',
-    phonetic: 'carrozza',
-  },
-  connection: {
-    translation: 'coincidenza',
-    phonetic: 'coincidenza',
-  },
-  'seat reservation': {
-    translation: 'prenotazione del posto',
-    phonetic: 'prenotazione del posto',
-  },
-  conductor: {
-    translation: 'capotreno',
-    phonetic: 'capotreno',
-  },
-  delay: {
-    translation: 'ritardo',
-    phonetic: 'ritardo',
-  },
-
-  // Places
-  // Hotels
-  reception: {
-    translation: 'reception',
-    phonetic: 'reception',
-  },
-  checkout: {
-    translation: 'check-out',
-    phonetic: 'check-out',
-  },
-  'room service': {
-    translation: 'servizio in camera',
-    phonetic: 'servizio in camera',
-  },
-  housekeeping: {
-    translation: 'pulizie',
-    phonetic: 'pulizie',
-  },
-  'wake-up call': {
-    translation: 'chiamata di sveglia',
-    phonetic: 'chiamata di sveglia',
-  },
-  minibar: {
-    translation: 'minibar',
-    phonetic: 'minibar',
-  },
-  'luggage storage': {
-    translation: 'deposito bagagli',
-    phonetic: 'deposito bagagli',
-  },
-  'complimentary breakfast': {
-    translation: 'colazione gratuita',
-    phonetic: 'colazione gratuita',
-  },
-  reservation: {
-    translation: 'prenotazione',
-    phonetic: 'prenotazione',
-  },
-
-  // Work
-  'meeting room': {
-    translation: 'sala riunioni',
-    phonetic: 'sala riunioni',
-  },
-  office: {
-    translation: 'ufficio',
-    phonetic: 'ufficio',
-  },
-  'conference call': {
-    translation: 'chiamata in conferenza',
-    phonetic: 'chiamata in conferenza',
-  },
-  presentation: {
-    translation: 'presentazione',
-    phonetic: 'presentazione',
-  },
-  printer: {
-    translation: 'stampante',
-    phonetic: 'stampante',
-  },
-  colleague: {
-    translation: 'collega',
-    phonetic: 'collega',
-  },
-  deadline: {
-    translation: 'scadenza',
-    phonetic: 'scadenza',
-  },
-  schedule: {
-    translation: 'programma',
-    phonetic: 'programma',
-  },
-  'business card': {
-    translation: 'biglietto da visita',
-    phonetic: 'biglietto da visita',
+  ATM: {
+    translation: 'bancomat',
+    phonetic: 'bancomat',
+  },
+  accessories: {
+    translation: 'accessori',
+    phonetic: 'accessori',
+  },
+  account: {
+    translation: 'conto',
+    phonetic: 'conto',
+  },
+  adapter: {
+    translation: 'adattatore',
+    phonetic: 'adattatore',
   },
   appointment: {
     translation: 'appuntamento',
     phonetic: 'appuntamento',
   },
-
-  // Outdoors
-  'hiking trail': {
-    translation: 'sentiero escursionistico',
-    phonetic: 'sentiero escursionistico',
+  appetizer: {
+    translation: 'antipasto',
+    phonetic: 'antipasto',
   },
-  campsite: {
-    translation: 'campeggio',
-    phonetic: 'campeggio',
+  arrival: {
+    translation: 'arrivo',
+    phonetic: 'arrivo',
   },
-  'picnic area': {
-    translation: 'area picnic',
-    phonetic: 'area picnic',
+  author: {
+    translation: 'autore',
+    phonetic: 'autore',
   },
-  'scenic view': {
-    translation: 'vista panoramica',
-    phonetic: 'vista panoramica',
+  'baggage claim': {
+    translation: 'ritiro bagagli',
+    phonetic: 'ritiro bagagli',
   },
-  'national park': {
-    translation: 'parco nazionale',
-    phonetic: 'parco nazionale',
+  balance: {
+    translation: 'saldo',
+    phonetic: 'saldo',
+  },
+  'bar stool': {
+    translation: 'sgabello da bar',
+    phonetic: 'sgabello da bar',
+  },
+  barista: {
+    translation: 'barista',
+    phonetic: 'barista',
+  },
+  bartender: {
+    translation: 'barista',
+    phonetic: 'barista',
+  },
+  'battery life': {
+    translation: 'durata della batteria',
+    phonetic: 'durata della batteria',
   },
   beach: {
     translation: 'spiaggia',
     phonetic: 'spiaggia',
   },
-  mountain: {
-    translation: 'montagna',
-    phonetic: 'montagna',
+  bestseller: {
+    translation: 'più venduto',
+    phonetic: 'più venduto',
   },
-  lake: {
-    translation: 'lago',
-    phonetic: 'lago',
+  bill: {
+    translation: 'conto',
+    phonetic: 'conto',
+  },
+  bills: {
+    translation: 'banconote',
+    phonetic: 'banconote',
+  },
+  'boarding pass': {
+    translation: 'carta d’imbarco',
+    phonetic: 'carta dimbarco',
+  },
+  bookshelf: {
+    translation: 'scaffale dei libri',
+    phonetic: 'scaffale dei libri',
+  },
+  bookstore: {
+    translation: 'libreria',
+    phonetic: 'libreria',
+  },
+  branch: {
+    translation: 'filiale',
+    phonetic: 'filiale',
+  },
+  'breakfast menu': {
+    translation: 'menu della colazione',
+    phonetic: 'menu della colazione',
+  },
+  'business card': {
+    translation: 'biglietto da visita',
+    phonetic: 'biglietto da visita',
+  },
+  campsite: {
+    translation: 'campeggio',
+    phonetic: 'campeggio',
+  },
+  'car rental': {
+    translation: 'noleggio auto',
+    phonetic: 'noleggio auto',
+  },
+  'card limit': {
+    translation: 'limite della carta',
+    phonetic: 'limite della carta',
+  },
+  'card reader': {
+    translation: 'lettore di carte',
+    phonetic: 'lettore di carte',
+  },
+  'cash back': {
+    translation: 'rimborso',
+    phonetic: 'rimborso',
+  },
+  cashier: {
+    translation: 'cassiere',
+    phonetic: 'cassiere',
+  },
+  change: {
+    translation: 'resto',
+    phonetic: 'resto',
+  },
+  charger: {
+    translation: 'caricabatterie',
+    phonetic: 'caricabatterie',
+  },
+  'check-in': {
+    translation: 'check-in',
+    phonetic: 'check-in',
+  },
+  checkout: {
+    translation: 'check-out',
+    phonetic: 'check-out',
+  },
+  chip: {
+    translation: 'chip',
+    phonetic: 'chip',
+  },
+  cocktail: {
+    translation: 'cocktail',
+    phonetic: 'cocktail',
+  },
+  'coffee to go': {
+    translation: 'caffè da asporto',
+    phonetic: 'caffè da asporto',
+  },
+  coins: {
+    translation: 'monete',
+    phonetic: 'monete',
+  },
+  collection: {
+    translation: 'collezione',
+    phonetic: 'collezione',
+  },
+  colleague: {
+    translation: 'collega',
+    phonetic: 'collega',
+  },
+  'complimentary breakfast': {
+    translation: 'colazione gratuita',
+    phonetic: 'colazione gratuita',
+  },
+  conductor: {
+    translation: 'capotreno',
+    phonetic: 'capotreno',
+  },
+  'conference call': {
+    translation: 'chiamata in conferenza',
+    phonetic: 'chiamata in conferenza',
+  },
+  connection: {
+    translation: 'coincidenza',
+    phonetic: 'coincidenza',
+  },
+  contactless: {
+    translation: 'contactless',
+    phonetic: 'contactless',
+  },
+  'credit card': {
+    translation: 'carta di credito',
+    phonetic: 'carta di credito',
+  },
+  currency: {
+    translation: 'valuta',
+    phonetic: 'valuta',
+  },
+  customs: {
+    translation: 'dogana',
+    phonetic: 'dogana',
+  },
+  deadline: {
+    translation: 'scadenza',
+    phonetic: 'scadenza',
+  },
+  'debit card': {
+    translation: 'carta di debito',
+    phonetic: 'carta di debito',
+  },
+  delay: {
+    translation: 'ritardo',
+    phonetic: 'ritardo',
+  },
+  departure: {
+    translation: 'partenza',
+    phonetic: 'partenza',
+  },
+  deposit: {
+    translation: 'deposito',
+    phonetic: 'deposito',
+  },
+  dessert: {
+    translation: 'dessert',
+    phonetic: 'dessert',
+  },
+  directions: {
+    translation: 'indicazioni',
+    phonetic: 'indicazioni',
+  },
+  discount: {
+    translation: 'sconto',
+    phonetic: 'sconto',
+  },
+  display: {
+    translation: 'schermo',
+    phonetic: 'schermo',
+  },
+  'draft beer': {
+    translation: 'birra alla spina',
+    phonetic: 'birra alla spina',
+  },
+  drink: {
+    translation: 'bere',
+    phonetic: 'be-re',
+  },
+  drinks: {
+    translation: 'bevande',
+    phonetic: 'bevande',
+  },
+  eat: {
+    translation: 'mangiare',
+    phonetic: 'man-ja-re',
+  },
+  espresso: {
+    translation: 'espresso',
+    phonetic: 'espresso',
+  },
+  'exchange rate': {
+    translation: 'tasso di cambio',
+    phonetic: 'tasso di cambio',
+  },
+  exit: {
+    translation: 'uscita',
+    phonetic: 'uscita',
+  },
+  'expiry date': {
+    translation: 'data di scadenza',
+    phonetic: 'data di scadenza',
+  },
+  fifty: {
+    translation: 'cinquanta',
+    phonetic: 'chin-kwan-ta',
+  },
+  'fitting room': {
+    translation: 'camerino',
+    phonetic: 'camerino',
+  },
+  five: {
+    translation: 'cinque',
+    phonetic: 'chin-kwe',
   },
   forest: {
     translation: 'foresta',
@@ -377,381 +281,436 @@ export const wordList: TranslatedWords = {
     translation: 'giardino',
     phonetic: 'giardino',
   },
-
-  // Food and Drink
-  // Restaurants
-  menu: {
-    translation: 'menu',
-    phonetic: 'menu',
+  'gas station': {
+    translation: 'stazione di servizio',
+    phonetic: 'stazione di servizio',
   },
-  waiter: {
-    translation: 'cameriere',
-    phonetic: 'cameriere',
-  },
-  bill: {
-    translation: 'conto',
-    phonetic: 'conto',
-  },
-  tip: {
-    translation: 'mancia',
-    phonetic: 'mancia',
-  },
-  'table for two': {
-    translation: 'tavolo per due',
-    phonetic: 'tavolo per due',
-  },
-  appetizer: {
-    translation: 'antipasto',
-    phonetic: 'antipasto',
-  },
-  'main course': {
-    translation: 'piatto principale',
-    phonetic: 'piatto principale',
-  },
-  dessert: {
-    translation: 'dessert',
-    phonetic: 'dessert',
-  },
-  drinks: {
-    translation: 'bevande',
-    phonetic: 'bevande',
-  },
-
-  // Pubs and Bars
-  'draft beer': {
-    translation: 'birra alla spina',
-    phonetic: 'birra alla spina',
-  },
-  'wine list': {
-    translation: 'lista dei vini',
-    phonetic: 'lista dei vini',
-  },
-  cocktail: {
-    translation: 'cocktail',
-    phonetic: 'cocktail',
-  },
-  'happy hour': {
-    translation: 'ora felice',
-    phonetic: 'ora felice',
-  },
-  'bar stool': {
-    translation: 'sgabello da bar',
-    phonetic: 'sgabello da bar',
-  },
-  snacks: {
-    translation: 'snack',
-    phonetic: 'snack',
-  },
-  'last call': {
-    translation: 'ultima chiamata',
-    phonetic: 'ultima chiamata',
-  },
-  spirits: {
-    translation: 'distillati',
-    phonetic: 'distillati',
-  },
-  bartender: {
-    translation: 'barista',
-    phonetic: 'barista',
-  },
-  tab: {
-    translation: 'conto aperto',
-    phonetic: 'conto aperto',
-  },
-
-  // Cafes
-  espresso: {
-    translation: 'espresso',
-    phonetic: 'espresso',
-  },
-  latte: {
-    translation: 'latte',
-    phonetic: 'latte',
-  },
-  pastry: {
-    translation: 'pasticcino',
-    phonetic: 'pasticcino',
-  },
-  'wifi password': {
-    translation: 'password del wifi',
-    phonetic: 'password del wifi',
-  },
-  takeaway: {
-    translation: 'da asporto',
-    phonetic: 'da asporto',
-  },
-  'coffee to go': {
-    translation: 'caffè da asporto',
-    phonetic: 'caffè da asporto',
-  },
-  'breakfast menu': {
-    translation: 'menu della colazione',
-    phonetic: 'menu della colazione',
-  },
-  barista: {
-    translation: 'barista',
-    phonetic: 'barista',
-  },
-  'milk alternatives': {
-    translation: 'alternative al latte',
-    phonetic: 'alternative al latte',
-  },
-  'opening hours': {
-    translation: 'orari di apertura',
-    phonetic: 'orari di apertura',
-  },
-
-  // Shopping
-  // Clothes
-  'fitting room': {
-    translation: 'camerino',
-    phonetic: 'camerino',
-  },
-  size: {
-    translation: 'taglia',
-    phonetic: 'taglia',
-  },
-  sale: {
-    translation: 'saldi',
-    phonetic: 'saldi',
-  },
-  discount: {
-    translation: 'sconto',
-    phonetic: 'sconto',
-  },
-  receipt: {
-    translation: 'ricevuta',
-    phonetic: 'ricevuta',
-  },
-  'return policy': {
-    translation: 'politica di reso',
-    phonetic: 'politica di reso',
-  },
-  cashier: {
-    translation: 'cassiere',
-    phonetic: 'cassiere',
-  },
-  'price tag': {
-    translation: 'etichetta del prezzo',
-    phonetic: 'etichetta del prezzo',
-  },
-  collection: {
-    translation: 'collezione',
-    phonetic: 'collezione',
-  },
-  payment: {
-    translation: 'pagamento',
-    phonetic: 'pagamento',
-  },
-
-  // Electronics
-  charger: {
-    translation: 'caricabatterie',
-    phonetic: 'caricabatterie',
-  },
-  adapter: {
-    translation: 'adattatore',
-    phonetic: 'adattatore',
-  },
-  warranty: {
-    translation: 'garanzia',
-    phonetic: 'garanzia',
-  },
-  'technical support': {
-    translation: 'supporto tecnico',
-    phonetic: 'supporto tecnico',
-  },
-  'battery life': {
-    translation: 'durata della batteria',
-    phonetic: 'durata della batteria',
-  },
-  specifications: {
-    translation: 'specifiche',
-    phonetic: 'specifiche',
-  },
-  memory: {
-    translation: 'memoria',
-    phonetic: 'memoria',
-  },
-  display: {
-    translation: 'schermo',
-    phonetic: 'schermo',
-  },
-  accessories: {
-    translation: 'accessori',
-    phonetic: 'accessori',
-  },
-  repair: {
-    translation: 'riparazione',
-    phonetic: 'riparazione',
-  },
-
-  // Books
-  bestseller: {
-    translation: 'più venduto',
-    phonetic: 'più venduto',
-  },
-  paperback: {
-    translation: 'copertina flessibile',
-    phonetic: 'copertina flessibile',
-  },
-  hardcover: {
-    translation: 'copertina rigida',
-    phonetic: 'copertina rigida',
+  gate: {
+    translation: 'uscita',
+    phonetic: 'uscita',
   },
   genre: {
     translation: 'genere',
     phonetic: 'genere',
   },
-  author: {
-    translation: 'autore',
-    phonetic: 'autore',
+  go: {
+    translation: 'andare',
+    phonetic: 'an-da-re',
   },
-  bookshelf: {
-    translation: 'scaffale dei libri',
-    phonetic: 'scaffale dei libri',
+  'good afternoon': {
+    translation: 'buon pomeriggio',
+    phonetic: 'bwon po-me-ri-jo',
   },
-  recommendation: {
-    translation: 'raccomandazione',
-    phonetic: 'raccomandazione',
+  'good evening': {
+    translation: 'buonasera',
+    phonetic: 'bwo-na-se-ra',
   },
-  'new releases': {
-    translation: 'nuove uscite',
-    phonetic: 'nuove uscite',
+  'good morning': {
+    translation: 'buongiorno',
+    phonetic: 'bwon-jor-no',
   },
-  bookstore: {
-    translation: 'libreria',
-    phonetic: 'libreria',
+  'good night': {
+    translation: 'buonanotte',
+    phonetic: 'bwo-na-not-te',
   },
-  'reading list': {
-    translation: 'lista di lettura',
-    phonetic: 'lista di lettura',
+  goodbye: {
+    translation: 'arrivederci',
+    phonetic: 'ar-ri-ve-der-chi',
   },
-
-  // Money
-  // Bank
-  account: {
-    translation: 'conto',
-    phonetic: 'conto',
+  hardcover: {
+    translation: 'copertina rigida',
+    phonetic: 'copertina rigida',
   },
-  balance: {
-    translation: 'saldo',
-    phonetic: 'saldo',
+  'have a nice day': {
+    translation: 'buona giornata',
+    phonetic: 'bwo-na jor-na-ta',
   },
-  transfer: {
-    translation: 'trasferimento',
-    phonetic: 'trasferimento',
+  'happy hour': {
+    translation: 'ora felice',
+    phonetic: 'ora felice',
   },
-  withdrawal: {
-    translation: 'prelievo',
-    phonetic: 'prelievo',
+  hello: {
+    translation: 'ciao',
+    phonetic: 'chao',
   },
-  deposit: {
-    translation: 'deposito',
-    phonetic: 'deposito',
+  hi: {
+    translation: 'ciao',
+    phonetic: 'chao',
   },
-  statement: {
-    translation: 'estratto conto',
-    phonetic: 'estratto conto',
+  highway: {
+    translation: 'autostrada',
+    phonetic: 'autostrada',
   },
-  'exchange rate': {
-    translation: 'tasso di cambio',
-    phonetic: 'tasso di cambio',
+  'hiking trail': {
+    translation: 'sentiero escursionistico',
+    phonetic: 'sentiero escursionistico',
   },
-  branch: {
-    translation: 'filiale',
-    phonetic: 'filiale',
+  housekeeping: {
+    translation: 'pulizie',
+    phonetic: 'pulizie',
   },
-  'online banking': {
-    translation: 'servizi bancari online',
-    phonetic: 'servizi bancari online',
+  hundred: {
+    translation: 'cento',
+    phonetic: 'chen-to',
   },
-  transaction: {
-    translation: 'transazione',
-    phonetic: 'transazione',
+  jump: {
+    translation: 'saltare',
+    phonetic: 'sal-ta-re',
   },
-
-  // Cash
-  change: {
-    translation: 'resto',
-    phonetic: 'resto',
+  lake: {
+    translation: 'lago',
+    phonetic: 'lago',
   },
-  bills: {
-    translation: 'banconote',
-    phonetic: 'banconote',
+  'last call': {
+    translation: 'ultima chiamata',
+    phonetic: 'ultima chiamata',
   },
-  coins: {
-    translation: 'monete',
-    phonetic: 'monete',
-  },
-  currency: {
-    translation: 'valuta',
-    phonetic: 'valuta',
-  },
-  ATM: {
-    translation: 'bancomat',
-    phonetic: 'bancomat',
-  },
-  'cash back': {
-    translation: 'rimborso',
-    phonetic: 'rimborso',
-  },
-  'money exchange': {
-    translation: 'cambio valuta',
-    phonetic: 'cambio valuta',
-  },
-  safe: {
-    translation: 'cassaforte',
-    phonetic: 'cassaforte',
-  },
-  wallet: {
-    translation: 'portafoglio',
-    phonetic: 'portafoglio',
+  latte: {
+    translation: 'latte',
+    phonetic: 'latte',
   },
   'local currency': {
     translation: 'valuta locale',
     phonetic: 'valuta locale',
   },
-
-  // Cards
-  'credit card': {
-    translation: 'carta di credito',
-    phonetic: 'carta di credito',
+  'luggage storage': {
+    translation: 'deposito bagagli',
+    phonetic: 'deposito bagagli',
   },
-  'debit card': {
-    translation: 'carta di debito',
-    phonetic: 'carta di debito',
+  'main course': {
+    translation: 'piatto principale',
+    phonetic: 'piatto principale',
+  },
+  'meeting room': {
+    translation: 'sala riunioni',
+    phonetic: 'sala riunioni',
+  },
+  memory: {
+    translation: 'memoria',
+    phonetic: 'memoria',
+  },
+  menu: {
+    translation: 'menu',
+    phonetic: 'menu',
+  },
+  'milk alternatives': {
+    translation: 'alternative al latte',
+    phonetic: 'alternative al latte',
+  },
+  minibar: {
+    translation: 'minibar',
+    phonetic: 'minibar',
+  },
+  'money exchange': {
+    translation: 'cambio valuta',
+    phonetic: 'cambio valuta',
+  },
+  mountain: {
+    translation: 'montagna',
+    phonetic: 'montagna',
+  },
+  'national park': {
+    translation: 'parco nazionale',
+    phonetic: 'parco nazionale',
+  },
+  'new releases': {
+    translation: 'nuove uscite',
+    phonetic: 'nuove uscite',
+  },
+  office: {
+    translation: 'ufficio',
+    phonetic: 'ufficio',
+  },
+  one: {
+    translation: 'uno',
+    phonetic: 'u-no',
+  },
+  'online banking': {
+    translation: 'servizi bancari online',
+    phonetic: 'servizi bancari online',
+  },
+  'opening hours': {
+    translation: 'orari di apertura',
+    phonetic: 'orari di apertura',
   },
   'PIN number': {
     translation: 'numero PIN',
     phonetic: 'numero PIN',
   },
-  contactless: {
-    translation: 'contactless',
-    phonetic: 'contactless',
+  paperback: {
+    translation: 'copertina flessibile',
+    phonetic: 'copertina flessibile',
   },
-  chip: {
-    translation: 'chip',
-    phonetic: 'chip',
+  'parking lot': {
+    translation: 'parcheggio',
+    phonetic: 'parcheggio',
   },
-  swipe: {
-    translation: 'strisciare',
-    phonetic: 'strisciare',
+  'passport control': {
+    translation: 'controllo passaporti',
+    phonetic: 'controllo passaporti',
   },
-  'card reader': {
-    translation: 'lettore di carte',
-    phonetic: 'lettore di carte',
+  pastry: {
+    translation: 'pasticcino',
+    phonetic: 'pasticcino',
   },
-  'expiry date': {
-    translation: 'data di scadenza',
-    phonetic: 'data di scadenza',
+  payment: {
+    translation: 'pagamento',
+    phonetic: 'pagamento',
+  },
+  'picnic area': {
+    translation: 'area picnic',
+    phonetic: 'area picnic',
+  },
+  platform: {
+    translation: 'banchina',
+    phonetic: 'banchina',
+  },
+  presentation: {
+    translation: 'presentazione',
+    phonetic: 'presentazione',
+  },
+  'price tag': {
+    translation: 'etichetta del prezzo',
+    phonetic: 'etichetta del prezzo',
+  },
+  printer: {
+    translation: 'stampante',
+    phonetic: 'stampante',
+  },
+  'railway car': {
+    translation: 'carrozza',
+    phonetic: 'carrozza',
+  },
+  'reading list': {
+    translation: 'lista di lettura',
+    phonetic: 'lista di lettura',
+  },
+  receipt: {
+    translation: 'ricevuta',
+    phonetic: 'ricevuta',
+  },
+  reception: {
+    translation: 'reception',
+    phonetic: 'reception',
+  },
+  recommendation: {
+    translation: 'raccomandazione',
+    phonetic: 'raccomandazione',
+  },
+  repair: {
+    translation: 'riparazione',
+    phonetic: 'riparazione',
+  },
+  reservation: {
+    translation: 'prenotazione',
+    phonetic: 'prenotazione',
+  },
+  'rest area': {
+    translation: 'area di sosta',
+    phonetic: 'area di sosta',
+  },
+  'return policy': {
+    translation: 'politica di reso',
+    phonetic: 'politica di reso',
+  },
+  'room service': {
+    translation: 'servizio in camera',
+    phonetic: 'servizio in camera',
+  },
+  roundabout: {
+    translation: 'rotatoria',
+    phonetic: 'rotatoria',
+  },
+  run: {
+    translation: 'correre',
+    phonetic: 'cor-re-re',
+  },
+  safe: {
+    translation: 'cassaforte',
+    phonetic: 'cassaforte',
+  },
+  sale: {
+    translation: 'saldi',
+    phonetic: 'saldi',
+  },
+  'scenic view': {
+    translation: 'vista panoramica',
+    phonetic: 'vista panoramica',
+  },
+  schedule: {
+    translation: 'programma',
+    phonetic: 'programma',
+  },
+  'seat reservation': {
+    translation: 'prenotazione del posto',
+    phonetic: 'prenotazione del posto',
+  },
+  'security check': {
+    translation: 'controllo di sicurezza',
+    phonetic: 'controllo di sicurezza',
   },
   'security code': {
     translation: 'codice di sicurezza',
     phonetic: 'codice di sicurezza',
   },
-  'card limit': {
-    translation: 'limite della carta',
-    phonetic: 'limite della carta',
+  'see you later': {
+    translation: 'a dopo',
+    phonetic: 'a do-po',
   },
-}
+  sit: {
+    translation: 'sedersi',
+    phonetic: 'se-der-si',
+  },
+  size: {
+    translation: 'taglia',
+    phonetic: 'taglia',
+  },
+  sleep: {
+    translation: 'dormire',
+    phonetic: 'dor-mi-re',
+  },
+  snacks: {
+    translation: 'snack',
+    phonetic: 'snack',
+  },
+  specifications: {
+    translation: 'specifiche',
+    phonetic: 'specifiche',
+  },
+  spirits: {
+    translation: 'distillati',
+    phonetic: 'distillati',
+  },
+  stand: {
+    translation: 'stare in piedi',
+    phonetic: 'sta-re in pi-e-di',
+  },
+  statement: {
+    translation: 'estratto conto',
+    phonetic: 'estratto conto',
+  },
+  stop: {
+    translation: 'fermarsi',
+    phonetic: 'fer-mar-si',
+  },
+  swipe: {
+    translation: 'strisciare',
+    phonetic: 'strisciare',
+  },
+  tab: {
+    translation: 'conto aperto',
+    phonetic: 'conto aperto',
+  },
+  'table for two': {
+    translation: 'tavolo per due',
+    phonetic: 'tavolo per due',
+  },
+  'take care': {
+    translation: 'stammi bene',
+    phonetic: 'stam-mi be-ne',
+  },
+  takeaway: {
+    translation: 'da asporto',
+    phonetic: 'da asporto',
+  },
+  'technical support': {
+    translation: 'supporto tecnico',
+    phonetic: 'supporto tecnico',
+  },
+  ten: {
+    translation: 'dieci',
+    phonetic: 'di-e-chi',
+  },
+  terminal: {
+    translation: 'terminal',
+    phonetic: 'terminal',
+  },
+  thousand: {
+    translation: 'mille',
+    phonetic: 'mil-le',
+  },
+  three: {
+    translation: 'tre',
+    phonetic: 'tre',
+  },
+  'ticket office': {
+    translation: 'biglietteria',
+    phonetic: 'biglietteria',
+  },
+  timetable: {
+    translation: 'orario',
+    phonetic: 'orario',
+  },
+  tip: {
+    translation: 'mancia',
+    phonetic: 'mancia',
+  },
+  'toll road': {
+    translation: 'strada a pedaggio',
+    phonetic: 'strada a pedaggio',
+  },
+  'track number': {
+    translation: 'numero del binario',
+    phonetic: 'numero del binario',
+  },
+  'traffic light': {
+    translation: 'semaforo',
+    phonetic: 'semaforo',
+  },
+  'train station': {
+    translation: 'stazione ferroviaria',
+    phonetic: 'stazione ferroviaria',
+  },
+  transaction: {
+    translation: 'transazione',
+    phonetic: 'transazione',
+  },
+  transfer: {
+    translation: 'trasferimento',
+    phonetic: 'trasferimento',
+  },
+  twenty: {
+    translation: 'venti',
+    phonetic: 'ven-ti',
+  },
+  two: {
+    translation: 'due',
+    phonetic: 'du-e',
+  },
+  waiter: {
+    translation: 'cameriere',
+    phonetic: 'cameriere',
+  },
+  'wake-up call': {
+    translation: 'chiamata di sveglia',
+    phonetic: 'chiamata di sveglia',
+  },
+  walk: {
+    translation: 'camminare',
+    phonetic: 'cam-mi-na-re',
+  },
+  wallet: {
+    translation: 'portafoglio',
+    phonetic: 'portafoglio',
+  },
+  warranty: {
+    translation: 'garanzia',
+    phonetic: 'garanzia',
+  },
+  'wifi password': {
+    translation: 'password del wifi',
+    phonetic: 'password del wifi',
+  },
+  'wine list': {
+    translation: 'lista dei vini',
+    phonetic: 'lista dei vini',
+  },
+  withdrawal: {
+    translation: 'prelievo',
+    phonetic: 'prelievo',
+  },
+  zero: {
+    translation: 'zero',
+    phonetic: 'dze-ro',
+  }
+};

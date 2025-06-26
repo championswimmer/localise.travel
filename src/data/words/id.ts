@@ -1,373 +1,277 @@
 import type { TranslatedWords } from '.'
 
 export const wordList: TranslatedWords = {
-  // Basics
-  // Greetings
-  hello: {
-    translation: 'halo',
-    phonetic: 'ha-lo',
-  },
-  hi: {
-    translation: 'hai',
-    phonetic: 'hai',
-  },
-  'good morning': {
-    translation: 'selamat pagi',
-    phonetic: 'se-la-mat pa-gi',
-  },
-  'good afternoon': {
-    translation: 'selamat siang',
-    phonetic: 'se-la-mat si-ang',
-  },
-  'good evening': {
-    translation: 'selamat malam',
-    phonetic: 'se-la-mat ma-lam',
-  },
-  'good night': {
-    translation: 'selamat tidur',
-    phonetic: 'se-la-mat ti-dur',
-  },
-  goodbye: {
-    translation: 'selamat tinggal',
-    phonetic: 'se-la-mat ting-gal',
-  },
-  'see you later': {
-    translation: 'sampai jumpa',
-    phonetic: 'sam-pai jum-pa',
-  },
-  'take care': {
-    translation: 'hati-hati',
-    phonetic: 'ha-ti ha-ti',
-  },
-  'have a nice day': {
-    translation: 'selamat beraktivitas',
-    phonetic: 'se-la-mat ber-ak-ti-vi-tas',
-  },
-
-  // Numbers
-  zero: {
-    translation: 'nol',
-    phonetic: 'nol',
-  },
-  one: {
-    translation: 'satu',
-    phonetic: 'sa-tu',
-  },
-  two: {
-    translation: 'dua',
-    phonetic: 'du-a',
-  },
-  three: {
-    translation: 'tiga',
-    phonetic: 'ti-ga',
-  },
-  five: {
-    translation: 'lima',
-    phonetic: 'li-ma',
-  },
-  ten: {
-    translation: 'sepuluh',
-    phonetic: 'se-pu-luh',
-  },
-  twenty: {
-    translation: 'dua puluh',
-    phonetic: 'du-a pu-luh',
-  },
-  fifty: {
-    translation: 'lima puluh',
-    phonetic: 'li-ma pu-luh',
-  },
-  hundred: {
-    translation: 'seratus',
-    phonetic: 'se-ra-tus',
-  },
-  thousand: {
-    translation: 'seribu',
-    phonetic: 'se-ri-bu',
-  },
-
-  // Actions
-  go: {
-    translation: 'pergi',
-    phonetic: 'per-gi',
-  },
-  stop: {
-    translation: 'berhenti',
-    phonetic: 'ber-hen-ti',
-  },
-  sit: {
-    translation: 'duduk',
-    phonetic: 'du-duk',
-  },
-  stand: {
-    translation: 'berdiri',
-    phonetic: 'ber-di-ri',
-  },
-  walk: {
-    translation: 'jalan',
-    phonetic: 'ja-lan',
-  },
-  run: {
-    translation: 'lari',
-    phonetic: 'la-ri',
-  },
-  jump: {
-    translation: 'lompat',
-    phonetic: 'lom-pat',
-  },
-  sleep: {
-    translation: 'tidur',
-    phonetic: 'ti-dur',
-  },
-  eat: {
-    translation: 'makan',
-    phonetic: 'ma-kan',
-  },
-  drink: {
-    translation: 'minum',
-    phonetic: 'mi-num',
-  },
-
-  // Travel
-  // Air Travel
-  departure: {
-    translation: 'keberangkatan',
-    phonetic: 'kuh-buh-rang-kat-an',
-  },
-  arrival: {
-    translation: 'kedatangan',
-    phonetic: 'kuh-dah-tang-an',
-  },
-  'boarding pass': {
-    translation: 'pas naik',
-    phonetic: 'pass na-eek',
-  },
-  'passport control': {
-    translation: 'pemeriksaan paspor',
-    phonetic: 'puh-muh-rik-sah-an pas-por',
-  },
-  'baggage claim': {
-    translation: 'pengambilan bagasi',
-    phonetic: 'pung-am-bil-an ba-gah-see',
-  },
-  terminal: {
-    translation: 'terminal',
-    phonetic: 'ter-mi-nal',
-  },
-  gate: {
-    translation: 'gerbang',
-    phonetic: 'ger-bang',
-  },
-  'check-in': {
-    translation: 'lapor masuk',
-    phonetic: 'la-por ma-sook',
-  },
-  'security check': {
-    translation: 'pemeriksaan keamanan',
-    phonetic: 'puh-muh-rik-sah-an keh-ah-man-an',
-  },
-  customs: {
-    translation: 'bea cukai',
-    phonetic: 'bee-ah chu-kai',
-  },
-
-  // Road Travel
-  'gas station': {
-    translation: 'pom bensin',
-    phonetic: 'pom ben-sin',
-  },
-  'parking lot': {
-    translation: 'tempat parkir',
-    phonetic: 'tem-pat par-kir',
-  },
-  highway: {
-    translation: 'jalan tol',
-    phonetic: 'jah-lan tol',
-  },
-  'toll road': {
-    translation: 'jalan tol',
-    phonetic: 'jah-lan tol',
-  },
-  'car rental': {
-    translation: 'rental mobil',
-    phonetic: 'ren-tal mo-bil',
-  },
-  'traffic light': {
-    translation: 'lampu lalu lintas',
-    phonetic: 'lam-poo la-loo lin-tas',
-  },
-  directions: {
-    translation: 'petunjuk arah',
-    phonetic: 'puh-toon-jook ah-rah',
-  },
-  'rest area': {
-    translation: 'tempat istirahat',
-    phonetic: 'tem-pat is-ti-ra-hat',
-  },
-  exit: {
-    translation: 'keluar',
-    phonetic: 'kuh-loo-ar',
-  },
-  roundabout: {
-    translation: 'bundaran',
-    phonetic: 'bun-dar-an',
-  },
-
-  // Rail Travel
-  platform: {
-    translation: 'peron',
-    phonetic: 'peh-ron',
-  },
-  'ticket office': {
-    translation: 'loket tiket',
-    phonetic: 'lo-ket ti-ket',
-  },
-  'train station': {
-    translation: 'stasiun kereta',
-    phonetic: 'sta-si-oon kuh-reh-ta',
-  },
-  timetable: {
-    translation: 'jadwal',
-    phonetic: 'jad-wal',
-  },
-  'track number': {
-    translation: 'nomor jalur',
-    phonetic: 'no-mor ja-loor',
-  },
-  'railway car': {
-    translation: 'gerbong',
-    phonetic: 'ger-bong',
-  },
-  connection: {
-    translation: 'sambungan',
-    phonetic: 'sam-boong-an',
-  },
-  'seat reservation': {
-    translation: 'pemesanan kursi',
-    phonetic: 'puh-muh-san-an kur-si',
-  },
-  conductor: {
-    translation: 'kondektur',
-    phonetic: 'kon-dek-toor',
-  },
-  delay: {
-    translation: 'keterlambatan',
-    phonetic: 'kuh-ter-lam-bat-an',
-  },
-
-  // Places
-  // Hotels
-  reception: {
-    translation: 'resepsi',
-    phonetic: 'reh-sep-si',
-  },
-  checkout: {
-    translation: 'pembayaran',
-    phonetic: 'pem-ba-yar-an',
-  },
-  'room service': {
-    translation: 'layanan kamar',
-    phonetic: 'la-yan-an ka-mar',
-  },
-  housekeeping: {
-    translation: 'tata graha',
-    phonetic: 'ta-ta gra-ha',
-  },
-  'wake-up call': {
-    translation: 'layanan bangun pagi',
-    phonetic: 'la-yan-an ba-ngoon pa-gi',
-  },
-  minibar: {
-    translation: 'minibar',
-    phonetic: 'mi-ni-bar',
-  },
-  'luggage storage': {
-    translation: 'penyimpanan bagasi',
-    phonetic: 'puh-nyim-pan-an ba-gah-si',
-  },
-  'complimentary breakfast': {
-    translation: 'sarapan gratis',
-    phonetic: 'sa-ra-pan gra-tis',
-  },
-  reservation: {
-    translation: 'reservasi',
-    phonetic: 'reh-ser-va-si',
-  },
-
-  // Work
-  'meeting room': {
-    translation: 'ruang rapat',
-    phonetic: 'roo-ang ra-pat',
-  },
-  office: {
-    translation: 'kantor',
-    phonetic: 'kan-tor',
-  },
-  'conference call': {
-    translation: 'panggilan konferensi',
-    phonetic: 'pang-gil-an kon-fe-ren-si',
-  },
-  presentation: {
-    translation: 'presentasi',
-    phonetic: 'pre-sen-ta-si',
-  },
-  printer: {
-    translation: 'printer',
-    phonetic: 'prin-ter',
-  },
-  colleague: {
-    translation: 'rekan kerja',
-    phonetic: 'reh-kan ker-ja',
-  },
-  deadline: {
-    translation: 'tenggat waktu',
-    phonetic: 'teng-gat wak-too',
-  },
-  schedule: {
-    translation: 'jadwal',
-    phonetic: 'jad-wal',
-  },
-  'business card': {
-    translation: 'kartu nama',
-    phonetic: 'kar-too na-ma',
+  ATM: {
+    translation: 'ATM',
+    phonetic: 'a-te-em',
+  },
+  accessories: {
+    translation: 'aksesori',
+    phonetic: 'ak-se-so-ri',
+  },
+  account: {
+    translation: 'rekening',
+    phonetic: 're-ke-ning',
+  },
+  adapter: {
+    translation: 'adaptor',
+    phonetic: 'a-dap-tor',
   },
   appointment: {
     translation: 'janji temu',
     phonetic: 'jan-ji teh-moo',
   },
-
-  // Outdoors
-  'hiking trail': {
-    translation: 'jalur pendakian',
-    phonetic: 'ja-loor pen-da-ki-an',
+  appetizer: {
+    translation: 'hidangan pembuka',
+    phonetic: 'hi-dang-an pem-boo-ka',
   },
-  campsite: {
-    translation: 'tempat berkemah',
-    phonetic: 'tem-pat ber-keh-mah',
+  arrival: {
+    translation: 'kedatangan',
+    phonetic: 'kuh-dah-tang-an',
   },
-  'picnic area': {
-    translation: 'tempat piknik',
-    phonetic: 'tem-pat pik-nik',
+  author: {
+    translation: 'penulis',
+    phonetic: 'pe-noo-lis',
   },
-  'scenic view': {
-    translation: 'pemandangan indah',
-    phonetic: 'peh-man-dang-an in-dah',
+  'baggage claim': {
+    translation: 'pengambilan bagasi',
+    phonetic: 'pung-am-bil-an ba-gah-see',
   },
-  'national park': {
-    translation: 'taman nasional',
-    phonetic: 'ta-man na-si-o-nal',
+  balance: {
+    translation: 'saldo',
+    phonetic: 'sal-do',
+  },
+  'bar stool': {
+    translation: 'kursi bar',
+    phonetic: 'koor-si bar',
+  },
+  barista: {
+    translation: 'barista',
+    phonetic: 'ba-ris-ta',
+  },
+  bartender: {
+    translation: 'bartender',
+    phonetic: 'bar-ten-der',
+  },
+  'battery life': {
+    translation: 'masa pakai baterai',
+    phonetic: 'ma-sa pa-kai ba-te-rai',
   },
   beach: {
     translation: 'pantai',
     phonetic: 'pan-tai',
   },
-  mountain: {
-    translation: 'gunung',
-    phonetic: 'goo-noong',
+  bestseller: {
+    translation: 'buku terlaris',
+    phonetic: 'boo-koo ter-la-ris',
   },
-  lake: {
-    translation: 'danau',
-    phonetic: 'da-now',
+  bill: {
+    translation: 'tagihan',
+    phonetic: 'ta-gi-han',
+  },
+  bills: {
+    translation: 'uang kertas',
+    phonetic: 'oo-ang ker-tas',
+  },
+  'boarding pass': {
+    translation: 'pas naik',
+    phonetic: 'pass na-eek',
+  },
+  bookshelf: {
+    translation: 'rak buku',
+    phonetic: 'rak boo-koo',
+  },
+  bookstore: {
+    translation: 'toko buku',
+    phonetic: 'to-ko boo-koo',
+  },
+  branch: {
+    translation: 'cabang',
+    phonetic: 'cha-bang',
+  },
+  'breakfast menu': {
+    translation: 'menu sarapan',
+    phonetic: 'meh-noo sa-ra-pan',
+  },
+  'business card': {
+    translation: 'kartu nama',
+    phonetic: 'kar-too na-ma',
+  },
+  campsite: {
+    translation: 'tempat berkemah',
+    phonetic: 'tem-pat ber-keh-mah',
+  },
+  'car rental': {
+    translation: 'rental mobil',
+    phonetic: 'ren-tal mo-bil',
+  },
+  'card limit': {
+    translation: 'batas kartu',
+    phonetic: 'ba-tas kar-too',
+  },
+  'card reader': {
+    translation: 'pembaca kartu',
+    phonetic: 'pem-ba-cha kar-too',
+  },
+  'cash back': {
+    translation: 'cashback',
+    phonetic: 'kesh-bek',
+  },
+  cashier: {
+    translation: 'kasir',
+    phonetic: 'ka-sir',
+  },
+  change: {
+    translation: 'kembalian',
+    phonetic: 'kem-ba-li-an',
+  },
+  charger: {
+    translation: 'pengisi daya',
+    phonetic: 'peng-i-si da-ya',
+  },
+  'check-in': {
+    translation: 'lapor masuk',
+    phonetic: 'la-por ma-sook',
+  },
+  checkout: {
+    translation: 'pembayaran',
+    phonetic: 'pem-ba-yar-an',
+  },
+  chip: {
+    translation: 'chip',
+    phonetic: 'chip',
+  },
+  cocktail: {
+    translation: 'koktail',
+    phonetic: 'kok-tail',
+  },
+  'coffee to go': {
+    translation: 'kopi bungkus',
+    phonetic: 'ko-pi boong-koos',
+  },
+  coins: {
+    translation: 'uang logam',
+    phonetic: 'oo-ang lo-gam',
+  },
+  collection: {
+    translation: 'koleksi',
+    phonetic: 'ko-lek-si',
+  },
+  colleague: {
+    translation: 'rekan kerja',
+    phonetic: 'reh-kan ker-ja',
+  },
+  'complimentary breakfast': {
+    translation: 'sarapan gratis',
+    phonetic: 'sa-ra-pan gra-tis',
+  },
+  conductor: {
+    translation: 'kondektur',
+    phonetic: 'kon-dek-toor',
+  },
+  'conference call': {
+    translation: 'panggilan konferensi',
+    phonetic: 'pang-gil-an kon-fe-ren-si',
+  },
+  connection: {
+    translation: 'sambungan',
+    phonetic: 'sam-boong-an',
+  },
+  contactless: {
+    translation: 'tanpa sentuh',
+    phonetic: 'tan-pa sen-tooh',
+  },
+  'credit card': {
+    translation: 'kartu kredit',
+    phonetic: 'kar-too kre-dit',
+  },
+  currency: {
+    translation: 'mata uang',
+    phonetic: 'ma-ta oo-ang',
+  },
+  customs: {
+    translation: 'bea cukai',
+    phonetic: 'bee-ah chu-kai',
+  },
+  deadline: {
+    translation: 'tenggat waktu',
+    phonetic: 'teng-gat wak-too',
+  },
+  'debit card': {
+    translation: 'kartu debit',
+    phonetic: 'kar-too de-bit',
+  },
+  delay: {
+    translation: 'keterlambatan',
+    phonetic: 'kuh-ter-lam-bat-an',
+  },
+  departure: {
+    translation: 'keberangkatan',
+    phonetic: 'kuh-buh-rang-kat-an',
+  },
+  deposit: {
+    translation: 'setoran',
+    phonetic: 'se-tor-an',
+  },
+  dessert: {
+    translation: 'hidangan penutup',
+    phonetic: 'hi-dang-an puh-noo-toop',
+  },
+  directions: {
+    translation: 'petunjuk arah',
+    phonetic: 'puh-toon-jook ah-rah',
+  },
+  discount: {
+    translation: 'diskon',
+    phonetic: 'dis-kon',
+  },
+  display: {
+    translation: 'layar',
+    phonetic: 'la-yar',
+  },
+  'draft beer': {
+    translation: 'bir draft',
+    phonetic: 'bir draft',
+  },
+  drink: {
+    translation: 'minum',
+    phonetic: 'mi-num',
+  },
+  drinks: {
+    translation: 'minuman',
+    phonetic: 'mi-noom-an',
+  },
+  eat: {
+    translation: 'makan',
+    phonetic: 'ma-kan',
+  },
+  espresso: {
+    translation: 'espreso',
+    phonetic: 'es-pre-so',
+  },
+  'exchange rate': {
+    translation: 'nilai tukar',
+    phonetic: 'ni-lai too-kar',
+  },
+  exit: {
+    translation: 'keluar',
+    phonetic: 'kuh-loo-ar',
+  },
+  'expiry date': {
+    translation: 'tanggal kadaluarsa',
+    phonetic: 'tang-gal ka-da-loo-ar-sa',
+  },
+  fifty: {
+    translation: 'lima puluh',
+    phonetic: 'li-ma pu-luh',
+  },
+  'fitting room': {
+    translation: 'kamar pas',
+    phonetic: 'ka-mar pas',
+  },
+  five: {
+    translation: 'lima',
+    phonetic: 'li-ma',
   },
   forest: {
     translation: 'hutan',
@@ -377,381 +281,436 @@ export const wordList: TranslatedWords = {
     translation: 'taman',
     phonetic: 'ta-man',
   },
-
-  // Food and Drink
-  // Restaurants
-  menu: {
-    translation: 'menu',
-    phonetic: 'meh-noo',
+  'gas station': {
+    translation: 'pom bensin',
+    phonetic: 'pom ben-sin',
   },
-  waiter: {
-    translation: 'pelayan',
-    phonetic: 'puh-la-yan',
-  },
-  bill: {
-    translation: 'tagihan',
-    phonetic: 'ta-gi-han',
-  },
-  tip: {
-    translation: 'tip',
-    phonetic: 'tip',
-  },
-  'table for two': {
-    translation: 'meja untuk dua',
-    phonetic: 'meh-ja oon-took doo-a',
-  },
-  appetizer: {
-    translation: 'hidangan pembuka',
-    phonetic: 'hi-dang-an pem-boo-ka',
-  },
-  'main course': {
-    translation: 'hidangan utama',
-    phonetic: 'hi-dang-an oo-ta-ma',
-  },
-  dessert: {
-    translation: 'hidangan penutup',
-    phonetic: 'hi-dang-an puh-noo-toop',
-  },
-  drinks: {
-    translation: 'minuman',
-    phonetic: 'mi-noom-an',
-  },
-
-  // Pubs and Bars
-  'draft beer': {
-    translation: 'bir draft',
-    phonetic: 'bir draft',
-  },
-  'wine list': {
-    translation: 'daftar anggur',
-    phonetic: 'daf-tar ang-goor',
-  },
-  cocktail: {
-    translation: 'koktail',
-    phonetic: 'kok-tail',
-  },
-  'happy hour': {
-    translation: 'happy hour',
-    phonetic: 'heh-pi a-wer',
-  },
-  'bar stool': {
-    translation: 'kursi bar',
-    phonetic: 'koor-si bar',
-  },
-  snacks: {
-    translation: 'cemilan',
-    phonetic: 'che-mil-an',
-  },
-  'last call': {
-    translation: 'panggilan terakhir',
-    phonetic: 'pang-gil-an ter-a-khir',
-  },
-  spirits: {
-    translation: 'minuman keras',
-    phonetic: 'mi-noom-an ke-ras',
-  },
-  bartender: {
-    translation: 'bartender',
-    phonetic: 'bar-ten-der',
-  },
-  tab: {
-    translation: 'tagihan',
-    phonetic: 'ta-gi-han',
-  },
-
-  // Cafes
-  espresso: {
-    translation: 'espreso',
-    phonetic: 'es-pre-so',
-  },
-  latte: {
-    translation: 'latte',
-    phonetic: 'la-teh',
-  },
-  pastry: {
-    translation: 'kue pastri',
-    phonetic: 'koo-eh pas-tri',
-  },
-  'wifi password': {
-    translation: 'kata sandi wifi',
-    phonetic: 'ka-ta san-di wi-fi',
-  },
-  takeaway: {
-    translation: 'bungkus',
-    phonetic: 'boong-koos',
-  },
-  'coffee to go': {
-    translation: 'kopi bungkus',
-    phonetic: 'ko-pi boong-koos',
-  },
-  'breakfast menu': {
-    translation: 'menu sarapan',
-    phonetic: 'meh-noo sa-ra-pan',
-  },
-  barista: {
-    translation: 'barista',
-    phonetic: 'ba-ris-ta',
-  },
-  'milk alternatives': {
-    translation: 'alternatif susu',
-    phonetic: 'al-ter-na-tif soo-soo',
-  },
-  'opening hours': {
-    translation: 'jam buka',
-    phonetic: 'jam boo-ka',
-  },
-
-  // Shopping
-  // Clothes
-  'fitting room': {
-    translation: 'kamar pas',
-    phonetic: 'ka-mar pas',
-  },
-  size: {
-    translation: 'ukuran',
-    phonetic: 'oo-koor-an',
-  },
-  sale: {
-    translation: 'obral',
-    phonetic: 'o-bral',
-  },
-  discount: {
-    translation: 'diskon',
-    phonetic: 'dis-kon',
-  },
-  receipt: {
-    translation: 'struk',
-    phonetic: 'strook',
-  },
-  'return policy': {
-    translation: 'kebijakan pengembalian',
-    phonetic: 'keh-bi-jak-an peng-em-ba-li-an',
-  },
-  cashier: {
-    translation: 'kasir',
-    phonetic: 'ka-sir',
-  },
-  'price tag': {
-    translation: 'label harga',
-    phonetic: 'la-bel har-ga',
-  },
-  collection: {
-    translation: 'koleksi',
-    phonetic: 'ko-lek-si',
-  },
-  payment: {
-    translation: 'pembayaran',
-    phonetic: 'pem-ba-yar-an',
-  },
-
-  // Electronics
-  charger: {
-    translation: 'pengisi daya',
-    phonetic: 'peng-i-si da-ya',
-  },
-  adapter: {
-    translation: 'adaptor',
-    phonetic: 'a-dap-tor',
-  },
-  warranty: {
-    translation: 'garansi',
-    phonetic: 'ga-ran-si',
-  },
-  'technical support': {
-    translation: 'dukungan teknis',
-    phonetic: 'doo-koong-an tek-nis',
-  },
-  'battery life': {
-    translation: 'masa pakai baterai',
-    phonetic: 'ma-sa pa-kai ba-te-rai',
-  },
-  specifications: {
-    translation: 'spesifikasi',
-    phonetic: 'spe-si-fi-ka-si',
-  },
-  memory: {
-    translation: 'memori',
-    phonetic: 'me-mo-ri',
-  },
-  display: {
-    translation: 'layar',
-    phonetic: 'la-yar',
-  },
-  accessories: {
-    translation: 'aksesori',
-    phonetic: 'ak-se-so-ri',
-  },
-  repair: {
-    translation: 'perbaikan',
-    phonetic: 'per-bai-kan',
-  },
-
-  // Books
-  bestseller: {
-    translation: 'buku terlaris',
-    phonetic: 'boo-koo ter-la-ris',
-  },
-  paperback: {
-    translation: 'buku tipis',
-    phonetic: 'boo-koo ti-pis',
-  },
-  hardcover: {
-    translation: 'buku tebal',
-    phonetic: 'boo-koo te-bal',
+  gate: {
+    translation: 'gerbang',
+    phonetic: 'ger-bang',
   },
   genre: {
     translation: 'genre',
     phonetic: 'jan-re',
   },
-  author: {
-    translation: 'penulis',
-    phonetic: 'pe-noo-lis',
+  go: {
+    translation: 'pergi',
+    phonetic: 'per-gi',
   },
-  bookshelf: {
-    translation: 'rak buku',
-    phonetic: 'rak boo-koo',
+  'good afternoon': {
+    translation: 'selamat siang',
+    phonetic: 'se-la-mat si-ang',
   },
-  recommendation: {
-    translation: 'rekomendasi',
-    phonetic: 're-ko-men-da-si',
+  'good evening': {
+    translation: 'selamat malam',
+    phonetic: 'se-la-mat ma-lam',
   },
-  'new releases': {
-    translation: 'buku baru',
-    phonetic: 'boo-koo ba-roo',
+  'good morning': {
+    translation: 'selamat pagi',
+    phonetic: 'se-la-mat pa-gi',
   },
-  bookstore: {
-    translation: 'toko buku',
-    phonetic: 'to-ko boo-koo',
+  'good night': {
+    translation: 'selamat tidur',
+    phonetic: 'se-la-mat ti-dur',
   },
-  'reading list': {
-    translation: 'daftar bacaan',
-    phonetic: 'daf-tar ba-cha-an',
+  goodbye: {
+    translation: 'selamat tinggal',
+    phonetic: 'se-la-mat ting-gal',
   },
-
-  // Money
-  // Bank
-  account: {
-    translation: 'rekening',
-    phonetic: 're-ke-ning',
+  hardcover: {
+    translation: 'buku tebal',
+    phonetic: 'boo-koo te-bal',
   },
-  balance: {
-    translation: 'saldo',
-    phonetic: 'sal-do',
+  'have a nice day': {
+    translation: 'selamat beraktivitas',
+    phonetic: 'se-la-mat ber-ak-ti-vi-tas',
   },
-  transfer: {
-    translation: 'transfer',
-    phonetic: 'trans-fer',
+  'happy hour': {
+    translation: 'happy hour',
+    phonetic: 'heh-pi a-wer',
   },
-  withdrawal: {
-    translation: 'penarikan',
-    phonetic: 'pe-na-ri-kan',
+  hello: {
+    translation: 'halo',
+    phonetic: 'ha-lo',
   },
-  deposit: {
-    translation: 'setoran',
-    phonetic: 'se-tor-an',
+  hi: {
+    translation: 'hai',
+    phonetic: 'hai',
   },
-  statement: {
-    translation: 'laporan rekening',
-    phonetic: 'la-por-an re-ke-ning',
+  highway: {
+    translation: 'jalan tol',
+    phonetic: 'jah-lan tol',
   },
-  'exchange rate': {
-    translation: 'nilai tukar',
-    phonetic: 'ni-lai too-kar',
+  'hiking trail': {
+    translation: 'jalur pendakian',
+    phonetic: 'ja-loor pen-da-ki-an',
   },
-  branch: {
-    translation: 'cabang',
-    phonetic: 'cha-bang',
+  housekeeping: {
+    translation: 'tata graha',
+    phonetic: 'ta-ta gra-ha',
   },
-  'online banking': {
-    translation: 'm-banking',
-    phonetic: 'em-beng-king',
+  hundred: {
+    translation: 'seratus',
+    phonetic: 'se-ra-tus',
   },
-  transaction: {
-    translation: 'transaksi',
-    phonetic: 'tran-sak-si',
+  jump: {
+    translation: 'lompat',
+    phonetic: 'lom-pat',
   },
-
-  // Cash
-  change: {
-    translation: 'kembalian',
-    phonetic: 'kem-ba-li-an',
+  lake: {
+    translation: 'danau',
+    phonetic: 'da-now',
   },
-  bills: {
-    translation: 'uang kertas',
-    phonetic: 'oo-ang ker-tas',
+  'last call': {
+    translation: 'panggilan terakhir',
+    phonetic: 'pang-gil-an ter-a-khir',
   },
-  coins: {
-    translation: 'uang logam',
-    phonetic: 'oo-ang lo-gam',
-  },
-  currency: {
-    translation: 'mata uang',
-    phonetic: 'ma-ta oo-ang',
-  },
-  ATM: {
-    translation: 'ATM',
-    phonetic: 'a-te-em',
-  },
-  'cash back': {
-    translation: 'cashback',
-    phonetic: 'kesh-bek',
-  },
-  'money exchange': {
-    translation: 'penukaran uang',
-    phonetic: 'pe-noo-kar-an oo-ang',
-  },
-  safe: {
-    translation: 'brankas',
-    phonetic: 'brang-kas',
-  },
-  wallet: {
-    translation: 'dompet',
-    phonetic: 'dom-pet',
+  latte: {
+    translation: 'latte',
+    phonetic: 'la-teh',
   },
   'local currency': {
     translation: 'mata uang lokal',
     phonetic: 'ma-ta oo-ang lo-kal',
   },
-
-  // Cards
-  'credit card': {
-    translation: 'kartu kredit',
-    phonetic: 'kar-too kre-dit',
+  'luggage storage': {
+    translation: 'penyimpanan bagasi',
+    phonetic: 'puh-nyim-pan-an ba-gah-si',
   },
-  'debit card': {
-    translation: 'kartu debit',
-    phonetic: 'kar-too de-bit',
+  'main course': {
+    translation: 'hidangan utama',
+    phonetic: 'hi-dang-an oo-ta-ma',
+  },
+  'meeting room': {
+    translation: 'ruang rapat',
+    phonetic: 'roo-ang ra-pat',
+  },
+  memory: {
+    translation: 'memori',
+    phonetic: 'me-mo-ri',
+  },
+  menu: {
+    translation: 'menu',
+    phonetic: 'meh-noo',
+  },
+  'milk alternatives': {
+    translation: 'alternatif susu',
+    phonetic: 'al-ter-na-tif soo-soo',
+  },
+  minibar: {
+    translation: 'minibar',
+    phonetic: 'mi-ni-bar',
+  },
+  'money exchange': {
+    translation: 'penukaran uang',
+    phonetic: 'pe-noo-kar-an oo-ang',
+  },
+  mountain: {
+    translation: 'gunung',
+    phonetic: 'goo-noong',
+  },
+  'national park': {
+    translation: 'taman nasional',
+    phonetic: 'ta-man na-si-o-nal',
+  },
+  'new releases': {
+    translation: 'buku baru',
+    phonetic: 'boo-koo ba-roo',
+  },
+  office: {
+    translation: 'kantor',
+    phonetic: 'kan-tor',
+  },
+  one: {
+    translation: 'satu',
+    phonetic: 'sa-tu',
+  },
+  'online banking': {
+    translation: 'm-banking',
+    phonetic: 'em-beng-king',
+  },
+  'opening hours': {
+    translation: 'jam buka',
+    phonetic: 'jam boo-ka',
   },
   'PIN number': {
     translation: 'nomor PIN',
     phonetic: 'no-mor pin',
   },
-  contactless: {
-    translation: 'tanpa sentuh',
-    phonetic: 'tan-pa sen-tooh',
+  paperback: {
+    translation: 'buku tipis',
+    phonetic: 'boo-koo ti-pis',
   },
-  chip: {
-    translation: 'chip',
-    phonetic: 'chip',
+  'parking lot': {
+    translation: 'tempat parkir',
+    phonetic: 'tem-pat par-kir',
   },
-  swipe: {
-    translation: 'gesek',
-    phonetic: 'ge-sek',
+  'passport control': {
+    translation: 'pemeriksaan paspor',
+    phonetic: 'puh-muh-rik-sah-an pas-por',
   },
-  'card reader': {
-    translation: 'pembaca kartu',
-    phonetic: 'pem-ba-cha kar-too',
+  pastry: {
+    translation: 'kue pastri',
+    phonetic: 'koo-eh pas-tri',
   },
-  'expiry date': {
-    translation: 'tanggal kadaluarsa',
-    phonetic: 'tang-gal ka-da-loo-ar-sa',
+  payment: {
+    translation: 'pembayaran',
+    phonetic: 'pem-ba-yar-an',
+  },
+  'picnic area': {
+    translation: 'tempat piknik',
+    phonetic: 'tem-pat pik-nik',
+  },
+  platform: {
+    translation: 'peron',
+    phonetic: 'peh-ron',
+  },
+  presentation: {
+    translation: 'presentasi',
+    phonetic: 'pre-sen-ta-si',
+  },
+  'price tag': {
+    translation: 'label harga',
+    phonetic: 'la-bel har-ga',
+  },
+  printer: {
+    translation: 'printer',
+    phonetic: 'prin-ter',
+  },
+  'railway car': {
+    translation: 'gerbong',
+    phonetic: 'ger-bong',
+  },
+  'reading list': {
+    translation: 'daftar bacaan',
+    phonetic: 'daf-tar ba-cha-an',
+  },
+  receipt: {
+    translation: 'struk',
+    phonetic: 'strook',
+  },
+  reception: {
+    translation: 'resepsi',
+    phonetic: 'reh-sep-si',
+  },
+  recommendation: {
+    translation: 'rekomendasi',
+    phonetic: 're-ko-men-da-si',
+  },
+  repair: {
+    translation: 'perbaikan',
+    phonetic: 'per-bai-kan',
+  },
+  reservation: {
+    translation: 'reservasi',
+    phonetic: 'reh-ser-va-si',
+  },
+  'rest area': {
+    translation: 'tempat istirahat',
+    phonetic: 'tem-pat is-ti-ra-hat',
+  },
+  'return policy': {
+    translation: 'kebijakan pengembalian',
+    phonetic: 'keh-bi-jak-an peng-em-ba-li-an',
+  },
+  'room service': {
+    translation: 'layanan kamar',
+    phonetic: 'la-yan-an ka-mar',
+  },
+  roundabout: {
+    translation: 'bundaran',
+    phonetic: 'bun-dar-an',
+  },
+  run: {
+    translation: 'lari',
+    phonetic: 'la-ri',
+  },
+  safe: {
+    translation: 'brankas',
+    phonetic: 'brang-kas',
+  },
+  sale: {
+    translation: 'obral',
+    phonetic: 'o-bral',
+  },
+  'scenic view': {
+    translation: 'pemandangan indah',
+    phonetic: 'peh-man-dang-an in-dah',
+  },
+  schedule: {
+    translation: 'jadwal',
+    phonetic: 'jad-wal',
+  },
+  'seat reservation': {
+    translation: 'pemesanan kursi',
+    phonetic: 'puh-muh-san-an kur-si',
+  },
+  'security check': {
+    translation: 'pemeriksaan keamanan',
+    phonetic: 'puh-muh-rik-sah-an keh-ah-man-an',
   },
   'security code': {
     translation: 'kode keamanan',
     phonetic: 'ko-de ke-a-man-an',
   },
-  'card limit': {
-    translation: 'batas kartu',
-    phonetic: 'ba-tas kar-too',
+  'see you later': {
+    translation: 'sampai jumpa',
+    phonetic: 'sam-pai jum-pa',
   },
-}
+  sit: {
+    translation: 'duduk',
+    phonetic: 'du-duk',
+  },
+  size: {
+    translation: 'ukuran',
+    phonetic: 'oo-koor-an',
+  },
+  sleep: {
+    translation: 'tidur',
+    phonetic: 'ti-dur',
+  },
+  snacks: {
+    translation: 'cemilan',
+    phonetic: 'che-mil-an',
+  },
+  specifications: {
+    translation: 'spesifikasi',
+    phonetic: 'spe-si-fi-ka-si',
+  },
+  spirits: {
+    translation: 'minuman keras',
+    phonetic: 'mi-noom-an ke-ras',
+  },
+  stand: {
+    translation: 'berdiri',
+    phonetic: 'ber-di-ri',
+  },
+  statement: {
+    translation: 'laporan rekening',
+    phonetic: 'la-por-an re-ke-ning',
+  },
+  stop: {
+    translation: 'berhenti',
+    phonetic: 'ber-hen-ti',
+  },
+  swipe: {
+    translation: 'gesek',
+    phonetic: 'ge-sek',
+  },
+  tab: {
+    translation: 'tagihan',
+    phonetic: 'ta-gi-han',
+  },
+  'table for two': {
+    translation: 'meja untuk dua',
+    phonetic: 'meh-ja oon-took doo-a',
+  },
+  'take care': {
+    translation: 'hati-hati',
+    phonetic: 'ha-ti ha-ti',
+  },
+  takeaway: {
+    translation: 'bungkus',
+    phonetic: 'boong-koos',
+  },
+  'technical support': {
+    translation: 'dukungan teknis',
+    phonetic: 'doo-koong-an tek-nis',
+  },
+  ten: {
+    translation: 'sepuluh',
+    phonetic: 'se-pu-luh',
+  },
+  terminal: {
+    translation: 'terminal',
+    phonetic: 'ter-mi-nal',
+  },
+  thousand: {
+    translation: 'seribu',
+    phonetic: 'se-ri-bu',
+  },
+  three: {
+    translation: 'tiga',
+    phonetic: 'ti-ga',
+  },
+  'ticket office': {
+    translation: 'loket tiket',
+    phonetic: 'lo-ket ti-ket',
+  },
+  timetable: {
+    translation: 'jadwal',
+    phonetic: 'jad-wal',
+  },
+  tip: {
+    translation: 'tip',
+    phonetic: 'tip',
+  },
+  'toll road': {
+    translation: 'jalan tol',
+    phonetic: 'jah-lan tol',
+  },
+  'track number': {
+    translation: 'nomor jalur',
+    phonetic: 'no-mor ja-loor',
+  },
+  'traffic light': {
+    translation: 'lampu lalu lintas',
+    phonetic: 'lam-poo la-loo lin-tas',
+  },
+  'train station': {
+    translation: 'stasiun kereta',
+    phonetic: 'sta-si-oon kuh-reh-ta',
+  },
+  transaction: {
+    translation: 'transaksi',
+    phonetic: 'tran-sak-si',
+  },
+  transfer: {
+    translation: 'transfer',
+    phonetic: 'trans-fer',
+  },
+  twenty: {
+    translation: 'dua puluh',
+    phonetic: 'du-a pu-luh',
+  },
+  two: {
+    translation: 'dua',
+    phonetic: 'du-a',
+  },
+  waiter: {
+    translation: 'pelayan',
+    phonetic: 'puh-la-yan',
+  },
+  'wake-up call': {
+    translation: 'layanan bangun pagi',
+    phonetic: 'la-yan-an ba-ngoon pa-gi',
+  },
+  walk: {
+    translation: 'jalan',
+    phonetic: 'ja-lan',
+  },
+  wallet: {
+    translation: 'dompet',
+    phonetic: 'dom-pet',
+  },
+  warranty: {
+    translation: 'garansi',
+    phonetic: 'ga-ran-si',
+  },
+  'wifi password': {
+    translation: 'kata sandi wifi',
+    phonetic: 'ka-ta san-di wi-fi',
+  },
+  'wine list': {
+    translation: 'daftar anggur',
+    phonetic: 'daf-tar ang-goor',
+  },
+  withdrawal: {
+    translation: 'penarikan',
+    phonetic: 'pe-na-ri-kan',
+  },
+  zero: {
+    translation: 'nol',
+    phonetic: 'nol',
+  }
+};
