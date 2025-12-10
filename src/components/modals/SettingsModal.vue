@@ -65,7 +65,24 @@ const selectVoice = (voiceName: string) => {
 const testVoice = (voiceName: string) => {
   const voice = availableVoices.value.find(v => v.name === voiceName)
   if (voice) {
-    const utterance = new SpeechSynthesisUtterance('Hello')
+    // Use a greeting in the current language for a more accurate preview
+    const greetings: Record<string, string> = {
+      fr: 'Bonjour',
+      es: 'Hola',
+      zh: '你好',
+      ar: 'مرحبا',
+      hi: 'नमस्ते',
+      pt: 'Olá',
+      bn: 'হ্যালো',
+      ru: 'Привет',
+      ja: 'こんにちは',
+      de: 'Hallo',
+      it: 'Ciao',
+      id: 'Halo',
+    }
+    const testPhrase = greetings[langStore.lang] || 'Hello'
+    
+    const utterance = new SpeechSynthesisUtterance(testPhrase)
     utterance.voice = voice
     utterance.lang = voice.lang
     utterance.rate = 0.7
@@ -105,6 +122,9 @@ const currentLangName = computed(() => AppLanguages[langStore.lang]?.name_en || 
         :key="voice.name"
         @click="selectVoice(voice.name)"
         class="d-flex align-items-center"
+        style="cursor: pointer"
+        role="button"
+        :aria-label="`Select ${voice.name} voice`"
       >
         <div class="flex-grow-1">
           <div class="fw-medium">{{ voice.name }}</div>
@@ -126,9 +146,3 @@ const currentLangName = computed(() => AppLanguages[langStore.lang]?.name_en || 
     </BListGroup>
   </BModal>
 </template>
-
-<style scoped>
-.pointer {
-  cursor: pointer;
-}
-</style>
