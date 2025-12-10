@@ -21,6 +21,7 @@ declare module 'vue' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SearchBar: typeof import('./src/components/SearchBar.vue')['default']
+    SettingsModal: typeof import('./src/components/modals/SettingsModal.vue')['default']
     SubcategoryCard: typeof import('./src/components/SubcategoryCard.vue')['default']
     ToastNotification: typeof import('./src/components/ToastNotification.vue')['default']
     WordCard: typeof import('./src/components/WordCard.vue')['default']

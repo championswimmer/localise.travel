@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { AppLanguages } from '@/data/languages'
 import { useLangStore } from '@/stores/lang'
+import { useSettingsStore } from '@/stores/settings'
 import { BNavbar, BNavbarBrand, BNavbarNav, BNavForm, BNavItem } from 'bootstrap-vue-next'
 import { Globe, Languages, Footprints, SlidersHorizontal, ChevronDown } from 'lucide-vue-next'
 import { computed } from 'vue'
@@ -8,6 +9,7 @@ import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const langStore = useLangStore()
+const settingsStore = useSettingsStore()
 const currentLang = computed(() => AppLanguages[langStore.lang!!])
 </script>
 
@@ -19,7 +21,14 @@ const currentLang = computed(() => AppLanguages[langStore.lang!!])
       <Footprints class="me-2 mb-1 text-secondary" :size="24" />
       <span class="text-primary">localise</span>.<span class="text-secondary">travel</span>
     </BNavbarBrand>
-    <BNavForm class="d-flex">
+    <BNavForm class="d-flex gap-2">
+      <button
+        class="btn btn-outline-secondary border-0 d-flex align-items-center"
+        @click="settingsStore.toggleSettings"
+        title="Settings"
+      >
+        <SlidersHorizontal :size="20" />
+      </button>
       <button
         class="btn btn-outline-secondary border-0 d-flex align-items-center"
         @click="langStore.toggleSelector"

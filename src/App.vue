@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import ReloadPrompt from '@/components/ReloadPrompt.vue'
 import NavBar from '@/components/NavBar.vue'
+import SettingsModal from '@/components/modals/SettingsModal.vue'
 import { provide, ref } from 'vue'
 import ToastNotification from '@/components/ToastNotification.vue'
 
@@ -25,6 +26,7 @@ provide('toast', {
     </main>
     <ReloadPrompt />
     <LanguageSelector />
+    <SettingsModal />
     <MainFooter />
   </div>
 </template>
