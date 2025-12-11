@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Translation } from '@/data/words'
 import { useLangStore } from '@/stores/lang'
+import { useSettingsStore } from '@/stores/settings'
 import { Volume2, AudioLines } from 'lucide-vue-next'
 import { inject } from 'vue'
 import { AppLanguages } from '@/data/languages'
@@ -12,6 +13,7 @@ const props = defineProps<{
 }>()
 
 const langStore = useLangStore()
+const settingsStore = useSettingsStore()
 const toast = inject<ToastMethods>('toast')
 
 const pronounce = () => {
@@ -29,6 +31,15 @@ const pronounce = () => {
         'Language Pack Required',
       )
       return
+    }
+
+    // Use saved voice preference if available
+    const savedVoiceName = settingsStore.getVoiceForLanguage(langStore.lang)
+    if (savedVoiceName) {
+      const savedVoice = voices.find(v => v.name === savedVoiceName)
+      if (savedVoice) {
+        utterance.voice = savedVoice
+      }
     }
 
     utterance.rate = 0.7
