@@ -159,8 +159,8 @@ export const wordList: TranslatedWords = {
     phonetic: 'kah-puh',
   },
   'check-in': {
-    translation: 'check-in',
-    phonetic: 'chek-een',
+    translation: 'giriş işlemi',
+    phonetic: 'gee-reesh eesh-leh-mee',
   },
   'security check': {
     translation: 'güvenlik kontrolü',
