@@ -481,8 +481,8 @@ export const wordList: TranslatedWords = {
     phonetic: 'pah-ket ser-vees',
   },
   'coffee to go': {
-    translation: 'götür kahve',
-    phonetic: 'goh-toor kah-veh',
+    translation: 'paket kahve',
+    phonetic: 'pah-ket kah-veh',
   },
   'breakfast menu': {
     translation: 'kahvaltı menüsü',
