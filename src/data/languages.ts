@@ -5,7 +5,7 @@ interface Language {
   emoji: string
 }
 
-export type LangCode = 'fr' | 'es' | 'zh' | 'ar' | 'hi' | 'pt' | 'bn' | 'ru' | 'ja' | 'de' | 'it' | 'id'
+export type LangCode = 'fr' | 'es' | 'zh' | 'ar' | 'hi' | 'pt' | 'bn' | 'ru' | 'ja' | 'de' | 'it' | 'id' | 'tr'
 
 export const AppLanguages: { [code: string]: Language } = {
   fr: {
@@ -79,5 +79,11 @@ export const AppLanguages: { [code: string]: Language } = {
     name_en: 'Indonesian',
     code: 'id',
     emoji: '🇮🇩',
+  },
+  tr: {
+    name: 'Türkçe',
+    name_en: 'Turkish',
+    code: 'tr',
+    emoji: '🇹🇷',
   },
 }
