@@ -469,8 +469,8 @@ export const wordList: TranslatedWords = {
     phonetic: 'lah-teh',
   },
   pastry: {
-    translation: 'pasta',
-    phonetic: 'pahs-tah',
+    translation: 'hamur işi',
+    phonetic: 'hah-moor ee-shee',
   },
   'wifi password': {
     translation: 'wifi şifresi',
