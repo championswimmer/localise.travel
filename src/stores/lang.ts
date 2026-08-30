@@ -1,7 +1,6 @@
 import type { LangCode } from '@/data/languages'
 import { defineStore } from 'pinia'
 import { getCurrentInstance, ref } from 'vue'
-import posthog from 'posthog-js'
 
 export const useLangStore = defineStore(
   'lang-select',

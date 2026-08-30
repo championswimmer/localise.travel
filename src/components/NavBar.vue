@@ -10,7 +10,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 const langStore = useLangStore()
 const settingsStore = useSettingsStore()
-const currentLang = computed(() => AppLanguages[langStore.lang!!])
+const currentLang = computed(() => AppLanguages[langStore.lang!])
 </script>
 
 <template>
