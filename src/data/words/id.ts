@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'selamat beraktivitas',
     phonetic: 'se-la-mat ber-ak-ti-vi-tas',
   },
+  'thank you': {
+    translation: 'terima kasih',
+    phonetic: 'te-ri-ma ka-sih',
+  },
 
   // Numbers
   zero: {

@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'buona giornata',
     phonetic: 'bwo-na jor-na-ta',
   },
+  'thank you': {
+    translation: 'grazie',
+    phonetic: 'gra-tsee-eh',
+  },
 
   // Numbers
   zero: {

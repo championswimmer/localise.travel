@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'que tengas un buen día',
     phonetic: 'keh ten-gahs oon bwen dee-ah',
   },
+  'thank you': {
+    translation: 'gracias',
+    phonetic: 'grah-syahs',
+  },
 
   // Numbers
   zero: {

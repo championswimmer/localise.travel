@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'يوم سعيد',
     phonetic: 'yawm saeed',
   },
+  'thank you': {
+    translation: 'شكرا',
+    phonetic: 'shukran',
+  },
 
   // Numbers
   zero: {

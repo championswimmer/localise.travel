@@ -33,6 +33,7 @@ export const WordCategories: Category[] = [
           'see you later',
           'take care',
           'have a nice day',
+          'thank you',
         ],
       },
       {

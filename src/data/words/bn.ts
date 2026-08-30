@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'ভালো দিন কাটুক',
     phonetic: 'bha-lo din ka-tuk',
   },
+  'thank you': {
+    translation: 'ধন্যবাদ',
+    phonetic: 'dhon-no-bad',
+  },
 
   // Numbers
   zero: {

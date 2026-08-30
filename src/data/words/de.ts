@@ -43,6 +43,10 @@ export const wordList: TranslatedWords = {
     translation: 'schönen tag',
     phonetic: 'shö-nen tak',
   },
+  'thank you': {
+    translation: 'Danke',
+    phonetic: 'dan-kuh',
+  },
 
   // Numbers
   zero: {
